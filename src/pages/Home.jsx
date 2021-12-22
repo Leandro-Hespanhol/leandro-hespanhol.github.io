@@ -10,9 +10,9 @@ export default class Home extends Component {
           <Header />
         </div>
         <div className="img-user">
-          <h1 className="title-user">
-            Hi! Nice to meet you, my name is Leandro Hespanhol 
-          </h1>
+            <h1 className="title-user">
+              Hi! I'm Leandro Hespanhol 
+            </h1>
           <img src={foto} alt="Leandro Hespanhol" id="foto" />
         </div>
       </div>
