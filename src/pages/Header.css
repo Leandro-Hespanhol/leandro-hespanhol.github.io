@@ -1,0 +1,38 @@
+.img-user {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+.img-user h1 {
+  width: 50%;
+}
+
+.title-user {
+  align-items: center;
+  /* background-color: rgba(3, 107, 82); trybe */ 
+  border: 2px solid black;
+  color: rgb(236, 31, 24);
+  display: flex;
+}
+
+.links-nav {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.links-nav div {
+  flex-grow: 1;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-style:italic;
+  /* font-size: 1.5em; */
+}
+
+#foto {
+  border-radius: 80%;
+  width: 150px;
+}
