@@ -12,7 +12,7 @@ export default class Home extends Component {
             <h1 className="title-user">
               Hi! I'm Leandro Hespanhol 
             </h1>
-          <img src={foto} alt="Leandro Hespanhol" id="foto" className="port-image" />
+          <img src={ foto } alt="Leandro Hespanhol" id="foto" className="port-image" />
         </div>
           <h1 className="title-user type-writter">{<Type />}</h1>
       </div>
