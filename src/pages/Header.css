@@ -34,5 +34,9 @@ h1 {
 
 #foto {
   border-radius: 80%;
-  width: 150px;
+  width: 250px;
+}
+
+.type-writter{
+  justify-content: center;
 }
