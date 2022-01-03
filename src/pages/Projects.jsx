@@ -1,6 +1,5 @@
 import React from 'react'
 import Draggable from 'react-draggable'
-import { Link } from 'react-router-dom'
 import Header from './Header'
 import { reactProjects } from './Projects/Data'
 
@@ -15,7 +14,7 @@ export default function Projects() {
             <h1>{ name }</h1>
             <h2>Core habilities: { habilities }</h2>
             <h4>{ description }</h4>
-          <Link to={ link }>{ name }</Link>
+          <a href={ link } target="_blank" rel="noreferrer">{ name }</a>
           </div>
           )}
         </div>
