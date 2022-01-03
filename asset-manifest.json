@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab234123.css",
-    "main.js": "/static/js/main.d55d1e8f.js",
+    "main.css": "/static/css/main.e433b03c.css",
+    "main.js": "/static/js/main.f8838dad.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
+    "static/media/starwars-planets.png": "/static/media/starwars-planets.2a08da4d58443f205eb1.png",
+    "static/media/trybewallet.jpg": "/static/media/trybewallet.1b8fe01e6906cf2a21bb.jpg",
+    "static/media/trybetunes.jpg": "/static/media/trybetunes.e50fdafa2677f6c52fdf.jpg",
     "static/media/leandro-port.jpeg": "/static/media/leandro-port.fa1cb2f06489d4c41139.jpeg",
     "static/media/spacestars.jpg": "/static/media/spacestars.3cfe23a356e5fa34b15a.jpg",
     "index.html": "/index.html",
-    "main.ab234123.css.map": "/static/css/main.ab234123.css.map",
-    "main.d55d1e8f.js.map": "/static/js/main.d55d1e8f.js.map",
+    "main.e433b03c.css.map": "/static/css/main.e433b03c.css.map",
+    "main.f8838dad.js.map": "/static/js/main.f8838dad.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab234123.css",
-    "static/js/main.d55d1e8f.js"
+    "static/css/main.e433b03c.css",
+    "static/js/main.f8838dad.js"
   ]
 }
