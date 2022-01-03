@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.08513687.css",
-    "main.js": "/static/js/main.eb547bc4.js",
+    "main.css": "/static/css/main.ab234123.css",
+    "main.js": "/static/js/main.d55d1e8f.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/leandro-port.jpeg": "/static/media/leandro-port.fa1cb2f06489d4c41139.jpeg",
     "static/media/spacestars.jpg": "/static/media/spacestars.3cfe23a356e5fa34b15a.jpg",
     "index.html": "/index.html",
-    "main.08513687.css.map": "/static/css/main.08513687.css.map",
-    "main.eb547bc4.js.map": "/static/js/main.eb547bc4.js.map",
+    "main.ab234123.css.map": "/static/css/main.ab234123.css.map",
+    "main.d55d1e8f.js.map": "/static/js/main.d55d1e8f.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08513687.css",
-    "static/js/main.eb547bc4.js"
+    "static/css/main.ab234123.css",
+    "static/js/main.d55d1e8f.js"
   ]
 }
