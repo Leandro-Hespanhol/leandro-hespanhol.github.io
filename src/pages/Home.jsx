@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Draggable from 'react-draggable';
 import Type from '../components/TypeWritter';
 import foto from '../images/leandro-port.jpeg';
 import Header from './Header';
@@ -14,7 +15,9 @@ export default class Home extends Component {
               <h1 className="title-user">
                 Hi! I'm Leandro Hespanhol 
               </h1>
-            <h1 className="title-user type-writter">{<Type />}</h1>
+            <Draggable handle="#textHandle">
+              <h1 className="title-user type-writter" id="textHandle">{<Type />}</h1>
+            </Draggable>
           </div>
           <div className="img-div">
             <img src={ foto } alt="Leandro Hespanhol" id="foto" className="port-image" />

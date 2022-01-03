@@ -1,0 +1,35 @@
+.window-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-div {
+  border: 2px solid red;
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  padding: 15px;
+  width: 30%;
+}
+
+.card-div h1 {
+  text-align: center;
+}
+
+.card-div img {
+  height: 50%;
+}
+
+.card-div h2 {
+  margin-top: 10px;
+}
+
+.card-div h4 {
+  line-height: 35px;
+  text-align: justify;
+}
+
+.card-div a {
+  text-align: end;
+}

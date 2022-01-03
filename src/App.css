@@ -2,15 +2,3 @@ body {
   background-image: url("./images/spacestars.jpg");
   background-size: cover;
 }
-
-.window-div {
-  display: flex;
-}
-
-.card-div {
-  border: 2px solid red;
-  display: flex;
-  color: aliceblue;
-  flex-direction: column;
-  width: 30%;
-}
