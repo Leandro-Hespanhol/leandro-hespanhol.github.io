@@ -7,14 +7,14 @@ export const reactProjects = [
     name: 'Star Wars Planet Search' ,
     image: starWars,
     habilities: 'React, Context API, Hooks.',
-    description: 'On this project i worked on a several different filters, using onInputChange filtering, combining different categories and filtering onClick, adding filters over filters changing dropDown options. The effects of removing a filter and getting the object back to the previous state was the most challenging, take a look!',
+    description: 'On this project i worked on a several different filters, using onInputChange filtering, combining different categories and filtering onClick, adding filters over filters while changing dropDown options. The effects of removing a filter and getting the object back to the previous state was the most challenging, come and take a look!',
     link: 'https://leandro-hespanhol.github.io/StarWars-Planet-Search/',
   },
   {
     name: 'TrybeWallet',
     image: trybewallet,
     habilities: 'React, Redux.',
-    description: 'This project is about Redux, handling props on a Store, using reducers and actions to use and modify then, working with dispatches, mapDispatchToProps, mapStateToProps.',
+    description: 'This project is about exchange rates from 15 different currencies to Brazilian currency. Learned alot about a witchcraft called Redux. While concentrating the props on a Store, i could use reducers and actions handle those props, all of it working with dispatches, mapDispatchToProps, mapStateToProps.',
     link: 'https://leandro-hespanhol.github.io/TrybeWallet/',
   },
   {

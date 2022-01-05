@@ -10,15 +10,20 @@ export default function Projects() {
         <div className="window-div">
           {reactProjects.map(({ name, habilities, image, description, link}) => 
           <div key={ name } className="card-div">
-            <h1>{ name }</h1>
-            <img src={ image } alt={ `${name} logo` } />
-            <h2>Core habilities: { habilities }</h2>
-            <h4>{ description }</h4>
-          <a href={ link } target="_blank" rel="noreferrer"><h1>{ name }</h1></a>
+            <h2>{ name }</h2>
+            <div className="link-img-div">
+              <a href={ link } target="_blank" rel="noreferrer">
+                <img src={ image } alt={ `${name} logo` } className="project-picture" /> 
+              </a> 
+            </div>
+            <h4>Core habilities: { habilities }</h4>
+            <p>{ description }</p>
+          <a href={ link } target="_blank" rel="noreferrer">
+            <h4 className="project-link">{ name }</h4>
+          </a>
           </div>
           )}
         </div>
-      {console.log('fazer um hover tocando sweetdreams, ou não')}
     </div>
   )
 }

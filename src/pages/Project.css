@@ -5,31 +5,38 @@
 }
 
 .card-div {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   color: aliceblue;
   flex-direction: column;
+  height: 100%;
+  margin-bottom: 0;
   padding: 15px;
-  width: 30%;
+  max-width: 30%;
 }
 
-.card-div h1 {
+.link-img-div {
   text-align: center;
 }
 
-.card-div img {
-  height: 50%;
+.project-picture {
+  width: 50%;
+  height: 30%;
 }
 
 .card-div h2 {
-  margin-top: 10px;
+  text-align: center;
 }
 
 .card-div h4 {
-  line-height: 35px;
+  margin-top: 15px;
+}
+
+.card-div p {
+  line-height: 21px;
   text-align: justify;
 }
 
-.card-div a {
+.project-link {
   text-align: end;
 }
