@@ -3,6 +3,7 @@ import Header from './Header';
 import './Contact.css';
 import githubImage from '../images/github-logo.png'
 import linkedinImage from '../images/linkedin-logo.png'
+import Footer from '../components/Footer';
 
 export default function Contact() {
   return (
@@ -26,6 +27,7 @@ export default function Contact() {
           </a>
         </div>
       </div>
+    <Footer />
     </div>
   )
 }
