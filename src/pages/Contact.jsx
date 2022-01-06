@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 export default function Contact() {
   return (
-    <div>
+    <div id="contact-page">
       <Header />
       <div className="main-div">
         <div className="contact-container github">

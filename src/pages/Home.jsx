@@ -3,6 +3,7 @@ import Draggable from 'react-draggable';
 import Type from '../components/TypeWritter';
 import foto from '../images/leandro-port.jpeg';
 import Contact from './Contact';
+import Experiences from './Experiences';
 import Header from './Header';
 import './Home.css';
 import Projects from './Projects';
@@ -10,7 +11,7 @@ import Projects from './Projects';
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div id="home-page">
         <Header />
         <div className="home-body-content">
           <div className="title-typewriter-div">
@@ -30,6 +31,7 @@ export default class Home extends Component {
         </div>
         <Projects />
         <Contact />
+        <Experiences />
       </div>
     );
   }

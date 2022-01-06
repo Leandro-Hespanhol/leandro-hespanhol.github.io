@@ -16,7 +16,8 @@
 
 .title-user {
   align-items: center;
-  color: #bfac8b;
+  /* color: #bfac8b; */
+  color: aliceblue;
   display: flex;
   font-family: 'Prompt', sans-serif;
   /* text-shadow: 1px 1px 0px #bfac8b; */
@@ -33,7 +34,7 @@
 }
 
 .intro-description {
-  color: #bfac8b;
+  color: aliceblue;
   font-size: 25px;
   margin-top: 50px;
 }

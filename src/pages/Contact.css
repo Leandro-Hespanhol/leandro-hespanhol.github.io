@@ -1,7 +1,7 @@
 .main-div {
   display: flex;
-  height: 86vh;
-  width: 100vw;
+  height: 80vh;
+  width: 99vw;
   transition: 1s ease;
   margin: 0;
 }

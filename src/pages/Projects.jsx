@@ -5,7 +5,7 @@ import './Project.css';
 
 export default function Projects() {
   return (
-    <div>
+    <div id="projects-page">
       <Header />
       <h1 className="projects-title">Front End Projects</h1>
       <div className="window-div">

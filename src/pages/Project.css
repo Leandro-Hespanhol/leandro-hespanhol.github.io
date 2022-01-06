@@ -31,11 +31,10 @@
   transition: 1.0s;
 }
 
-.card-div:hover a h4 {
+.card-div a button:hover {
   opacity: 1.5;
-  background-color: #bfac8b;
-  color: #0c7e7e;
-  transition: 1.0s;
+  background-color: #43e7e7;
+  transition: 0.5s;
 }
 
 .link-img-div {
@@ -78,7 +77,8 @@
 }
 
 .button-link {
-  background-color: #0c7e7e;
+  background-color: #0f9999;
+  border: none;
   border-radius: 20px;
   font-weight: 500;
   padding: 5px;
