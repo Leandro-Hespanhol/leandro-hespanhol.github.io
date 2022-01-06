@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.613a2639.css",
-    "main.js": "/static/js/main.db87b8fe.js",
+    "main.css": "/static/css/main.75cad33f.css",
+    "main.js": "/static/js/main.d4b74301.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/starwars-planets.png": "/static/media/starwars-planets.2a08da4d58443f205eb1.png",
     "static/media/trybetunesimage.png": "/static/media/trybetunesimage.a97996b54b9c51914ab2.png",
@@ -12,12 +12,12 @@
     "static/media/leandro-port.jpeg": "/static/media/leandro-port.fa1cb2f06489d4c41139.jpeg",
     "static/media/telegram-logo.png": "/static/media/telegram-logo.04c3d4028b28944f72b9.png",
     "index.html": "/index.html",
-    "main.613a2639.css.map": "/static/css/main.613a2639.css.map",
-    "main.db87b8fe.js.map": "/static/js/main.db87b8fe.js.map",
+    "main.75cad33f.css.map": "/static/css/main.75cad33f.css.map",
+    "main.d4b74301.js.map": "/static/js/main.d4b74301.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.613a2639.css",
-    "static/js/main.db87b8fe.js"
+    "static/css/main.75cad33f.css",
+    "static/js/main.d4b74301.js"
   ]
 }
