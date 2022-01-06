@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Draggable from 'react-draggable';
-import Footer from '../components/Footer';
 import Type from '../components/TypeWritter';
 import foto from '../images/leandro-port.jpeg';
 import Header from './Header';
@@ -24,7 +23,6 @@ export default class Home extends Component {
             <img src={ foto } alt="Leandro Hespanhol" id="foto" className="port-image" />
           </div>
         </div>
-        <Footer />
       </div>
     );
   }

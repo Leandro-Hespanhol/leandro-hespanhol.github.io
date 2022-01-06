@@ -1,4 +1,4 @@
 body {
-  background-image: url("./images/spacestars.jpg");
-  background-size: cover;
+  background-image: url("./images/space-uni.jpeg");
+  background-size: contain;
 }

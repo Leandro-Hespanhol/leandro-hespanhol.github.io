@@ -1,13 +1,12 @@
 .home-body-content {
   display: flex;
-  height: 55vh;
+  height: 65vh;
   margin-left: 100px;
   margin-top: 200px;
 }
 
 .title-typewriter-div {
   display: flex;
-  justify-content: space-around;
   flex-direction: column;
   width: 75%;
 }
@@ -17,9 +16,6 @@
 
 .title-user {
   align-items: center;
-  /* background-color: rgba(3, 107, 82); trybe */ 
-  border: 2px solid black;
-  /* color: rgb(236, 31, 24); */
   text-shadow: 3px 3px 0px rgb(236, 31, 24);
   display: flex;
 }
