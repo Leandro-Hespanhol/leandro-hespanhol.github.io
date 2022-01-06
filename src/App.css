@@ -1,4 +1,5 @@
 body {
   background-image: url("./images/space-uni.jpeg");
   background-size: contain;
+  font-family: 'Prompt', sans-serif;
 }

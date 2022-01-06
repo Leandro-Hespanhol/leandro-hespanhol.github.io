@@ -16,7 +16,7 @@
 
 .title-user {
   align-items: center;
-  text-shadow: 3px 3px 0px rgb(236, 31, 24);
+  text-shadow: 1px 1px 0px #bfac8b;
   display: flex;
 }
 

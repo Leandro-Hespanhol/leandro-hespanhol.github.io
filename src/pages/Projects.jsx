@@ -21,14 +21,16 @@ export default function Projects() {
                   />
                 </a>
               </div>
-              <h4>Core habilities: {abilities}</h4>
-              <p>{description}</p>
+              <div className="abilities-descrip">
+                <h4>Core abilities: {abilities}</h4>
+                <p>{description}</p>
+              </div>
               <div className="project-github-links">
                 <a href={link} target="_blank" rel="noreferrer">
-                  <h4 className="button-link">Go to Github</h4>
+                  <button className="button-link">Go to Github</button>
                 </a>
                 <a href={projectLink} target="_blank" rel="noreferrer">
-                  <h4 className="button-link">Go to Project</h4>
+                  <button className="button-link">Go to Project</button>
                 </a>
               </div>
             </div>

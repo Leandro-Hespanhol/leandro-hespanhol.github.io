@@ -7,35 +7,43 @@
 
 .card-div {
   background: transparent;
-  background-color: rgb(34, 50, 65);
+  background-color: #000706;
   border-radius: 20px;
   display: flex;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   flex-direction: column;
-  height: 620px;
+  justify-content: space-between;
+  height: 650px;
   margin-bottom: 0;
   max-width: 30%;
-  opacity: 0.8;
   padding: 15px;
 }
 
 .card-div:hover {
+  background-color: #00272d;
+  transition: 1.0s;
+}
+
+.card-div:hover a h4 {
   opacity: 1.5;
-  background-color: rgb(64, 151, 228);
+  background-color: #bfac8b;
+  color: #0c7e7e;
   transition: 1.0s;
 }
 
 .link-img-div {
   text-align: center;
+  height: 170px;
 }
 
 .project-picture {
-  width: 50%;
+  width: 55%;
 }
 
 .card-div h2 {
-  text-align: center;
   border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  text-align: center;
 }
 
 .card-div h4 {
@@ -52,16 +60,22 @@
   opacity: 0.8; 
 }
 
-.project-github-links a:visited {
+/* .project-github-links a:visited {
   text-decoration: none;
   opacity: 0.8; 
   color: rgb(102, 0, 153);
+} */
+
+.abilities-descrip {
+  height: 220px;
 }
 
 .button-link {
-  background-color: rgb(34, 50, 65);
+  background-color: #0c7e7e;
   border-radius: 20px;
+  font-weight: 500;
   padding: 5px;
+  width: 150px;
   /* color: hotpink; */
 }
 

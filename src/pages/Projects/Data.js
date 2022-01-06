@@ -1,6 +1,6 @@
-import starWars from '../../images/starwars-planets.png'
+import starWars from '../../images/starwars-transp-cropped.png'
 import trybetunes from '../../images/trybetunesimage.png'
-import trybewallet from '../../images/trybewallet.jpg'
+import trybewallet from '../../images/bolsadevalores.jpg'
 
 export const reactProjects = [
   {
