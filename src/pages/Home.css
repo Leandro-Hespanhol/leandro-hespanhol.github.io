@@ -1,6 +1,6 @@
 .home-body-content {
   display: flex;
-  height: 65vh;
+  height: 70vh;
   margin-left: 100px;
   margin-top: 200px;
 }
@@ -16,8 +16,11 @@
 
 .title-user {
   align-items: center;
-  text-shadow: 1px 1px 0px #bfac8b;
+  color: #bfac8b;
   display: flex;
+  font-family: 'Prompt', sans-serif;
+  /* text-shadow: 1px 1px 0px #bfac8b; */
+  
 }
 
 #foto {
@@ -27,6 +30,12 @@
 
 .type-writter{
   justify-content: center;
+}
+
+.intro-description {
+  color: #bfac8b;
+  font-size: 25px;
+  margin-top: 50px;
 }
 
 :root {

@@ -7,6 +7,7 @@ export default function Projects() {
   return (
     <div>
       <Header />
+      <h1 className="projects-title">Front End Projects</h1>
       <div className="window-div">
         {reactProjects.map(
           ({ name, abilities, image, description, link, projectLink }) => (

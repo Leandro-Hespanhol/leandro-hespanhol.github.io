@@ -3,11 +3,18 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.projects-title {
+  color: aliceblue;
+  text-align: center;
 }
 
 .card-div {
   background: transparent;
   background-color: #000706;
+  border: 10px double #00272d;
   border-radius: 20px;
   display: flex;
   color: rgb(255, 255, 255);
