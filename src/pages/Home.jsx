@@ -3,7 +3,7 @@ import Draggable from 'react-draggable';
 import Type from '../components/TypeWritter';
 import foto from '../images/leandro-port.jpeg';
 import Contact from './Contact';
-import Experiences from './Experiences';
+import About from './About';
 import Header from './Header';
 import './Home.css';
 import Projects from './Projects';
@@ -30,8 +30,8 @@ export default class Home extends Component {
           </div>
         </div>
         <Projects />
+        <About />
         <Contact />
-        <Experiences />
       </div>
     );
   }

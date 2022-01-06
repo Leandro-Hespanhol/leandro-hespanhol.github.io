@@ -6,6 +6,11 @@
   margin: 0;
 }
 
+.contact-title {
+  color: aliceblue;
+  text-align: center;
+}
+
 .contact-container {
   width: 95%;
   height: 95%;

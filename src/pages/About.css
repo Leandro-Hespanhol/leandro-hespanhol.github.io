@@ -1,0 +1,29 @@
+.image-description {
+  display: flex;
+  width: 99%;
+  height: 83vh;
+}
+
+.image-div {
+  display: flex;
+  align-items: center;
+}
+
+.image-div img {
+  width: 700px;
+}
+
+.about-me-desc {
+  color: aliceblue;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-me-desc p {
+  text-align: justify;
+  padding-left: 25px;
+  padding-right: 25px;
+}

@@ -22,13 +22,13 @@ export default function Header() {
           </a>
         </div>
         <div>
-          <a href="#contact-page" className="navbar-brand">
-            Contact
+          <a href="#about-page" className="navbar-brand">
+            About
           </a>
         </div>
         <div>
-          <a href="#experiences" className="navbar-brand">
-            Experiences
+          <a href="#contact-page" className="navbar-brand">
+            Contact
           </a>
         </div>
       </nav>

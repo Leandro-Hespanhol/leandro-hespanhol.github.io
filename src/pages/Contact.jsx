@@ -9,6 +9,7 @@ export default function Contact() {
   return (
     <div id="contact-page">
       <Header />
+      <h1 className="contact-title">Lets work togheter!!</h1>
       <div className="main-div">
         <div className="contact-container github">
           <a href="https://github.com/Leandro-Hespanhol"
