@@ -36,6 +36,16 @@
   margin-top: 50px;
 }
 
+.header-buttons {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttons-div {
+}
+
 :root {
   --white-col: #fff;
   --black-col: #000;

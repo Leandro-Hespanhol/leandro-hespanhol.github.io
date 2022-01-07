@@ -4,13 +4,18 @@ import './Contact.css';
 import githubImage from '../images/github-logo.png'
 import linkedinImage from '../images/linkedin-logo.png'
 import Footer from '../components/Footer';
+import { Trans, useTranslation } from 'react-i18next';
+import hooray from '../images/celebracao.png'
 
 export default function Contact() {
+
+  const { t } = useTranslation()
+  
   return (
     <div id="contact-page">
       {/* <Header /> */}
-      <h1 className="contact-title">Let's work togheter!!</h1>
-      <h3 className="contact-title">Here are the places you can find me </h3>
+      <h1 className="contact-title">{t('contact.title')} <img src={hooray} alt="hooray" width={100} /> </h1>
+      <h3 className="contact-title">{t('contact.subtitle')} </h3>
       <div className="main-div">
         <div className="contact-container github">
           <a href="https://github.com/Leandro-Hespanhol"
