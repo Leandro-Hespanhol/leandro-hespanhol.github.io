@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.54c2f4e2.css",
-    "main.js": "/static/js/main.cfad7583.js",
+    "main.css": "/static/css/main.e56f3ce1.css",
+    "main.js": "/static/js/main.58e61f98.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/friends-and-bikes.png": "/static/media/friends-and-bikes.08d9784e53006f812cb1.png",
     "static/media/space-uni.jpeg": "/static/media/space-uni.a1e2b93bab9d3ce77c15.jpeg",
@@ -12,13 +12,14 @@
     "static/media/whatsapp-logo.png": "/static/media/whatsapp-logo.5fc400c4b153fc178ad7.png",
     "static/media/leandro-port.jpeg": "/static/media/leandro-port.fa1cb2f06489d4c41139.jpeg",
     "static/media/telegram-logo.png": "/static/media/telegram-logo.04c3d4028b28944f72b9.png",
+    "static/media/celebracao.png": "/static/media/celebracao.95801865c907830dc0fc.png",
     "index.html": "/index.html",
-    "main.54c2f4e2.css.map": "/static/css/main.54c2f4e2.css.map",
-    "main.cfad7583.js.map": "/static/js/main.cfad7583.js.map",
+    "main.e56f3ce1.css.map": "/static/css/main.e56f3ce1.css.map",
+    "main.58e61f98.js.map": "/static/js/main.58e61f98.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c2f4e2.css",
-    "static/js/main.cfad7583.js"
+    "static/css/main.e56f3ce1.css",
+    "static/js/main.58e61f98.js"
   ]
 }
