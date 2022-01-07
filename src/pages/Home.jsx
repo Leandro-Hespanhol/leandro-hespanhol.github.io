@@ -16,10 +16,10 @@ export default class Home extends Component {
         <div className="home-body-content">
           <div className="title-typewriter-div">
               <h1 className="title-user">
-                Hi!  I'm Leandro Hespanhol 
+               Wellcome! <br></br> I'm Leandro Hespanhol 
               </h1>
             <Draggable handle="#textHandle">
-              <h1 className="title-user type-writter" id="textHandle">{<Type />}</h1>
+              <h2 className="title-user type-writter" id="textHandle">{<Type />}</h2>
             </Draggable>
             <p className="intro-description">Its a new career for me and I must say, its being such a joy!
             <br></br>

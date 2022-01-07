@@ -1,6 +1,6 @@
 .home-body-content {
   display: flex;
-  height: 70vh;
+  height: 120vh;
   margin-left: 100px;
   padding-top: 150px;
 }
@@ -26,7 +26,7 @@
 
 #foto {
   border-radius: 80%;
-  width: 250px;
+  width: 200px;
 }
 
 .type-writter{
