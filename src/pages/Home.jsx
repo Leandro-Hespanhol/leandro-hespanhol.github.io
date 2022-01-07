@@ -10,8 +10,8 @@ import Projects from './Projects';
 import { Trans, useTranslation } from 'react-i18next';
 
 const lngs = {
-  en: { nativeName: 'English' },
-  ptbr: { nativeName: 'Português' }
+  en: { nativeFlag: '🇺🇸' },
+  ptbr: { nativeFlag: '🇧🇷' }
 };
 
 export default function Home() {
@@ -26,12 +26,11 @@ export default function Home() {
           <div className="buttons-div">
           {Object.keys(lngs).map((lng) => (
               <button key={lng} 
-                style={{ fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal' }}
                 type="submit"
-                className="lang-button"
+                className={ i18n.resolvedLanguage === lng ? 'lang-button-active' : 'lang-button-inactive' }
                 onClick={() => i18n.changeLanguage(lng)}
               >
-                {lngs[lng].nativeName}
+                {lngs[lng].nativeFlag}
               </button>
             ))}
           </div>

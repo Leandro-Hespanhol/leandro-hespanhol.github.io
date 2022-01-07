@@ -1,10 +1,9 @@
 import React from 'react';
-import Header from './Header';
 import './Contact.css';
 import githubImage from '../images/github-logo.png'
 import linkedinImage from '../images/linkedin-logo.png'
 import Footer from '../components/Footer';
-import { Trans, useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import hooray from '../images/celebracao.png'
 
 export default function Contact() {

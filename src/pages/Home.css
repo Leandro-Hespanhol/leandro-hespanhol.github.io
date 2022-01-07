@@ -43,7 +43,14 @@
   width: 100%;
 }
 
-.buttons-div {
+.lang-button-active {
+  background-color: black;
+  border: 2px solid #006a7a;
+}
+
+.lang-button-inactive {
+  background-color: black;
+  border: none;
 }
 
 :root {
