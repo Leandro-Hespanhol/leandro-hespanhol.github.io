@@ -11,17 +11,12 @@
   width: 75%;
 }
 .title-typewriter-div h1 {
-  width: 50%;
+  width: 90%;
 }
 
 .title-user {
-  align-items: center;
-  /* color: #bfac8b; */
   color: aliceblue;
-  display: flex;
   font-family: 'Prompt', sans-serif;
-  /* text-shadow: 1px 1px 0px #bfac8b; */
-  
 }
 
 #foto {
@@ -30,7 +25,9 @@
 }
 
 .type-writter{
-  justify-content: center;
+  color: aliceblue;
+  font-family: 'Prompt', sans-serif;
+  width: 90%;
 }
 
 .intro-description {

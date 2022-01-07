@@ -19,7 +19,7 @@ export default class Home extends Component {
                Wellcome! <br></br> I'm Leandro Hespanhol 
               </h1>
             <Draggable handle="#textHandle">
-              <h2 className="title-user type-writter" id="textHandle">{<Type />}</h2>
+              <h2 className="type-writter" id="textHandle">{<Type />}</h2>
             </Draggable>
             <p className="intro-description">Its a new career for me and I must say, its being such a joy!
             <br></br>
