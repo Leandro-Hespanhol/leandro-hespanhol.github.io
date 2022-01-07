@@ -23,7 +23,10 @@ i18n
           home: {
             title: `Wellcome! <br></br> I'm Leandro Hespanhol`,
             description: `Its a new career for me and I must say, its being such a joy! <br></br>
-            Please take a look and I hope you find what you seek!`
+            Please take a look and I hope you find what you seek!`,
+            typewritter1: "Technology Student",
+            typewritter2: "Frontend Software Engineer",
+            typewritter3: "Laywer and Jurist"
           },
           frontEndProjects: {
             project: {}
@@ -44,7 +47,10 @@ i18n
           home: {
             title: `Bem vind@! <br></br> Sou o Leandro Hespanhol`,
             description: `É uma nova carreira pra mim e preciso dizer, tem sido maravilhoso! <br></br>
-            Fique à vontade e espero que encontre o que procura!`
+            Fique à vontade e espero que encontre o que procura!`,
+            typewritter1: "Estudante de Tecnologia",
+            typewritter2: "Engenheiro de desenvolvimento web Frontend",
+            typewritter3: "Advogado e Jurista"
           },
           frontEndProjects: {
             project: {}
