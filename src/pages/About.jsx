@@ -6,7 +6,7 @@ import './About.css'
 export default function Experiences() {
   return (
     <div id="about-page">
-      <Header />
+      {/* <Header /> */}
       <div className="image-description">
         <div className="image-div">
           <img src={ friends } alt="friends-and-bikes" />

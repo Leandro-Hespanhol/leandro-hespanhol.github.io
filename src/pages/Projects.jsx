@@ -6,7 +6,7 @@ import './Project.css';
 export default function Projects() {
   return (
     <div id="projects-page">
-      <Header />
+      {/* <Header /> */}
       <h1 className="projects-title">Front End Projects</h1>
       <div className="window-div">
         {reactProjects.map(

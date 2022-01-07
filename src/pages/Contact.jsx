@@ -8,8 +8,9 @@ import Footer from '../components/Footer';
 export default function Contact() {
   return (
     <div id="contact-page">
-      <Header />
-      <h1 className="contact-title">Lets work togheter!!</h1>
+      {/* <Header /> */}
+      <h1 className="contact-title">Let's work togheter!!</h1>
+      <h3 className="contact-title">Here are the places you can find me </h3>
       <div className="main-div">
         <div className="contact-container github">
           <a href="https://github.com/Leandro-Hespanhol"

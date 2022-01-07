@@ -1,13 +1,17 @@
+/* #contact-page {
+  padding-top: 50px;
+} */
+
 .main-div {
   display: flex;
-  height: 80vh;
-  width: 99vw;
-  transition: 1s ease;
+  height: 67vh;
   margin: 0;
+  transition: 1s ease;
+  width: 99vw;
 }
 
 .contact-title {
-  color: aliceblue;
+  color: rgb(252, 252, 252);
   text-align: center;
 }
 

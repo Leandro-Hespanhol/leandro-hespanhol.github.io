@@ -2,6 +2,8 @@
   display: flex;
   width: 99%;
   height: 83vh;
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
 }
 
 .image-div {
@@ -10,7 +12,7 @@
 }
 
 .image-div img {
-  width: 700px;
+  width: 400px;
 }
 
 .about-me-desc {
