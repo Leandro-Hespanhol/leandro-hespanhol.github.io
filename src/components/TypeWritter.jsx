@@ -10,7 +10,7 @@ function Type() {
         strings: [t('home.typewritter1'), t('home.typewritter2'), t('home.typewritter3')],
         autoStart: true,
         loop: true,
-        deleteSpeed: 100,
+        deleteSpeed: 40,
       }}
     />
   );
