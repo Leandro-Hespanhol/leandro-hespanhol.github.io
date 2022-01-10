@@ -7,7 +7,7 @@ export const reactProjects = [
     name: 'Star Wars Planet Search' ,
     image: starWars,
     abilities: 'React, Context API, Hooks.',
-    description: 'On this project i worked on a several different filters, using onInputChange filtering, combining different categories and filtering onClick, adding filters over filters while changing dropDown options. The effects of removing a filter and getting the object back to the previous state was the most challenging, come and take a look!',
+    description: 'On this project a static API is fetched and saved on local state. On the browser the user can filter the results on a several different ways. Please take a look!',
     link: 'https://github.com/Leandro-Hespanhol/StarWars-Planet-Search',
     projectLink: 'https://leandro-hespanhol.github.io/StarWars-Planet-Search/',
   },
