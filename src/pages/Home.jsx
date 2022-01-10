@@ -2,6 +2,7 @@ import React from 'react';
 import Draggable from 'react-draggable';
 import Type from '../components/TypeWritter';
 import foto from '../images/leandro-port.jpeg';
+import ptbr from '../images/flags/brazil.png'
 import Contact from './Contact';
 import About from './About';
 import Header from './Header';
@@ -11,7 +12,7 @@ import { Trans, useTranslation } from 'react-i18next';
 
 const lngs = {
   en: { nativeFlag: '🇺🇸' },
-  ptbr: { nativeFlag: '🇧🇷' }
+  ptbr: { nativeFlag: ptbr }
 };
 
 export default function Home() {
@@ -23,7 +24,7 @@ export default function Home() {
           <div>
             <Header />
           </div>
-          <div className="buttons-div">
+          <div >
           {Object.keys(lngs).map((lng) => (
               <button key={lng} 
                 type="submit"
