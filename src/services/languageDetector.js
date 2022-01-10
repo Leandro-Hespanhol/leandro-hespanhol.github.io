@@ -49,7 +49,7 @@ i18n
             description: `É uma nova carreira pra mim e preciso dizer, tem sido maravilhoso! <br></br>
             Fique à vontade e espero que encontre o que procura!`,
             typewritter1: "Estudante de Tecnologia",
-            typewritter2: "Engenheiro de desenvolvimento web Frontend",
+            typewritter2: "Desenvolvedor Web de Front End",
             typewritter3: "Advogado e Jurista"
           },
           frontEndProjects: {
