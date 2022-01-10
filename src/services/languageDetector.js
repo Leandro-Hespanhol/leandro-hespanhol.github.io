@@ -25,8 +25,8 @@ i18n
             description: `Its a new career for me and I must say, its being such a joy! <br></br>
             Please take a look and I hope you find what you seek!`,
             typewritter1: "Technology Student",
-            typewritter2: "Frontend Software Engineer",
-            typewritter3: "Laywer and Jurist"
+            typewritter2: "Front-End Software Engineer",
+            typewritter3: "Lawyer and Jurist"
           },
           frontEndProjects: {
             project: {}
