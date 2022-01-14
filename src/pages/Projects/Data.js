@@ -28,3 +28,6 @@ export const reactProjects = [
     projectLink: 'https://leandro-hespanhol.github.io/TrybeTunes/',
   },
 ]
+
+export const linkedinLink = 'https://www.linkedin.com/in/leandro-hespanhol/'
+export const githubLink = 'https://github.com/Leandro-Hespanhol'
