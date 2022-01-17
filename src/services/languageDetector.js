@@ -21,7 +21,7 @@ i18n
       en: {
         translation: {
           home: {
-            title: `Wellcome! <br></br> I'm Leandro Hespanhol`,
+            title: `Welcome! <br></br> I'm Leandro Hespanhol`,
             description: `Its a new career for me and I must say, its being such a joy! <br></br>
             Please take a look and I hope you find what you seek!`,
             typewritter1: "Technology Student",
