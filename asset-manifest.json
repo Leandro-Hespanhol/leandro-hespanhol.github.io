@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e56f3ce1.css",
-    "main.js": "/static/js/main.e02631a2.js",
+    "main.css": "/static/css/main.b7b8c42d.css",
+    "main.js": "/static/js/main.8ec0620b.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/friends-and-bikes.png": "/static/media/friends-and-bikes.08d9784e53006f812cb1.png",
     "static/media/space-uni.jpeg": "/static/media/space-uni.a1e2b93bab9d3ce77c15.jpeg",
@@ -14,12 +14,12 @@
     "static/media/telegram-logo.png": "/static/media/telegram-logo.04c3d4028b28944f72b9.png",
     "static/media/celebracao.png": "/static/media/celebracao.95801865c907830dc0fc.png",
     "index.html": "/index.html",
-    "main.e56f3ce1.css.map": "/static/css/main.e56f3ce1.css.map",
-    "main.e02631a2.js.map": "/static/js/main.e02631a2.js.map",
+    "main.b7b8c42d.css.map": "/static/css/main.b7b8c42d.css.map",
+    "main.8ec0620b.js.map": "/static/js/main.8ec0620b.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e56f3ce1.css",
-    "static/js/main.e02631a2.js"
+    "static/css/main.b7b8c42d.css",
+    "static/js/main.8ec0620b.js"
   ]
 }
