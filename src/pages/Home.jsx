@@ -6,7 +6,7 @@ import Contact from './Contact';
 import About from './About';
 import Header from './Header';
 import './Home.css';
-import Projects from './Projects';
+import ProjectsFront from './ProjectsFront';
 import { Trans, useTranslation } from 'react-i18next';
 
 const lngs = {
@@ -55,7 +55,7 @@ export default function Home() {
             <img src={ foto } alt="Leandro Hespanhol" id="foto" className="port-image" />
           </div>
         </div>
-        <Projects />
+        <ProjectsFront />
         <About />
         <Contact />
       </div>

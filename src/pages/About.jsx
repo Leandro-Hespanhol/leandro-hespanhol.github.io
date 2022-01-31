@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './Header'
 import friends from '../images/friends-and-bikes.png'
 import { Trans, useTranslation } from 'react-i18next';
 import './About.css'
@@ -9,7 +8,6 @@ export default function Experiences() {
 
   return (
     <div id="about-page">
-      {/* <Header /> */}
       <div className="image-description">
         <div className="image-div">
           <img src={ friends } alt="friends-and-bikes" />

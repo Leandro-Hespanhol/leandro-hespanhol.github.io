@@ -14,11 +14,9 @@ export default function Header() {
         </div>
         <div>
           <a 
-            href="#projects-page" 
+            href="#front-projects-page" 
             className="navbar-brand"
-            // duration={5000}
-          >
-            Projects
+          >Projects
           </a>
         </div>
         <div>

@@ -1,12 +1,10 @@
 import React from 'react';
-import Header from './Header';
 import { reactProjects } from './Projects/Data';
-import './Project.css';
+import './ProjectsFront.css';
 
 export default function Projects() {
   return (
-    <div id="projects-page">
-      {/* <Header /> */}
+    <div id="front-projects-page">
       <h1 className="projects-title">Front End Projects</h1>
       <div className="window-div">
         {reactProjects.map(
