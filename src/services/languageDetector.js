@@ -12,30 +12,6 @@ i18n
       escapeValue: false,
     },
     resources: {
-      en: {
-        translation: {
-          home: {
-            title: `Welcome! <br></br> I'm Leandro Hespanhol`,
-            description: `Its a new career for me and I must say, its being such a joy! <br></br>
-            Please take a look and I hope you find what you seek!`,
-            typewritter1: "Technology Student",
-            typewritter2: "Full-Stack Software Developer",
-            typewritter3: "Lawyer and Jurist"
-          },
-          frontEndProjects: {
-            project: {}
-          },
-          about: {
-            title: 'What about me?',
-            description: '<p>At first I would like to present myself doing two things I love: Riding my bike and be with my friends. I also love coding but lets not get too personal right away 😉</p><p>Studying usually is something that comes to me with ease. Probably because learning is such a rewarding experience to me. I like to say that <strong>Curiosity guides me.</strong> </p> <p>I am a graduaded lawyer, but from the beggining of my career my technology skills made myself be seen by my bosses. After one year and a half working on a big law office I was invited to join the technology team. I worked on a suport post which gave me and incredible vision about artificial inteligence and made myself make the changing career decision!</p><p>And then I found Trybe. I never thought I could learn programing so fast! Its been so little time and im ready to code on: ',
-            description2: '<p>And not just that! To know how to learn is one of the main skills im improving on my study. Because of that, learning a different language would not be a problem!</p>'
-          },
-          contact: {
-            title: `Let's work togheter!!`,
-            subtitle: 'Here are the places you can find me'
-          }
-        }
-      },
       ptbr: {
         translation: {
           home: {
@@ -57,6 +33,30 @@ i18n
           contact: {
             title: `Vamos trabalhar juntos!!`,
             subtitle: 'Veja os lugares em que pode me encontrar'
+          }
+        }
+      },
+      en: {
+        translation: {
+          home: {
+            title: `Welcome! <br></br> I'm Leandro Hespanhol`,
+            description: `Its a new career for me and I must say, its being such a joy! <br></br>
+            Please take a look and I hope you find what you seek!`,
+            typewritter1: "Technology Student",
+            typewritter2: "Full-Stack Software Developer",
+            typewritter3: "Lawyer and Jurist"
+          },
+          frontEndProjects: {
+            project: {}
+          },
+          about: {
+            title: 'What about me?',
+            description: '<p>At first I would like to present myself doing two things I love: Riding my bike and be with my friends. I also love coding but lets not get too personal right away 😉</p><p>Studying usually is something that comes to me with ease. Probably because learning is such a rewarding experience to me. I like to say that <strong>Curiosity guides me.</strong> </p> <p>I am a graduaded lawyer, but from the beggining of my career my technology skills made myself be seen by my bosses. After one year and a half working on a big law office I was invited to join the technology team. I worked on a suport post which gave me and incredible vision about artificial inteligence and made myself make the changing career decision!</p><p>And then I found Trybe. I never thought I could learn programing so fast! Its been so little time and im ready to code on: ',
+            description2: '<p>And not just that! To know how to learn is one of the main skills im improving on my study. Because of that, learning a different language would not be a problem!</p>'
+          },
+          contact: {
+            title: `Let's work togheter!!`,
+            subtitle: 'Here are the places you can find me'
           }
         }
       }
