@@ -10,8 +10,8 @@ import ProjectsFront from './ProjectsFront';
 import { Trans, useTranslation } from 'react-i18next';
 
 const lngs = {
-  en: { nativeFlag: '🇺🇸' },
-  ptbr: { nativeFlag: '🇧🇷' }
+  en: { nativeFlag: String.fromCodePoint(127482, 127480) },
+  ptbr: { nativeFlag: String.fromCodePoint(127463, 127479) }
 };
 
 export default function Home() {

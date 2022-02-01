@@ -1,21 +1,15 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import hooray from '../images/celebracao.png'
 
 i18n
-  // detect user language
-  // learn more: https://github.com/i18next/i18next-browser-languageDetector
   .use(LanguageDetector)
-  // pass the i18n instance to react-i18next.
   .use(initReactI18next)
-  // init i18next
-  // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
     debug: true,
-    fallbackLng: 'en',
+    fallbackLng: 'ptbr',
     interpolation: {
-      escapeValue: false, // not needed for react as it escapes by default
+      escapeValue: false,
     },
     resources: {
       en: {
@@ -25,7 +19,7 @@ i18n
             description: `Its a new career for me and I must say, its being such a joy! <br></br>
             Please take a look and I hope you find what you seek!`,
             typewritter1: "Technology Student",
-            typewritter2: "Front-End Software Engineer",
+            typewritter2: "Full-Stack Software Developer",
             typewritter3: "Lawyer and Jurist"
           },
           frontEndProjects: {
@@ -49,7 +43,7 @@ i18n
             description: `É uma nova carreira pra mim e preciso dizer, tem sido maravilhoso! <br></br>
             Fique à vontade e espero que encontre o que procura!`,
             typewritter1: "Estudante de Tecnologia",
-            typewritter2: "Desenvolvedor Web de Front End",
+            typewritter2: "Desenvolvedor de Software Full-Stack",
             typewritter3: "Advogado e Jurista"
           },
           frontEndProjects: {
