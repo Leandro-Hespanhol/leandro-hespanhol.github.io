@@ -1,6 +1,7 @@
 import starWars from '../../images/starwars-transp-cropped.png'
 import trybetunes from '../../images/equalizer.png'
 import trybewallet from '../../images/bolsaimagem.png'
+import sqlimage from '../../images/sqlimage.jpeg'
 
 export const reactProjects = [
   {
@@ -26,6 +27,14 @@ export const reactProjects = [
     description: 'Fetching an API from itunes i was able to search and list preview songs. This project is all about understanding props. It taught me the basic concepts of React, routing with react-router-dom, exploring matchers, was really fun.',
     link: 'https://github.com/Leandro-Hespanhol/TrybeTunes',
     projectLink: 'https://leandro-hespanhol.github.io/TrybeTunes/',
+  },
+  {
+    name: 'mySQL Project',
+    image: sqlimage,
+    abilities: 'DataBase Normalization, mySQL fundamentals and queries',
+    description: 'This project starts with a table normalization where I had to work logically to create functional tables.    The challenges that follows are about creating diferent queries to extract interesting data.',
+    link: 'https://github.com/Leandro-Hespanhol/mySql-Project',
+    projectLink: 'https://github.com/Leandro-Hespanhol/mySql-Project',
   },
 ]
 
