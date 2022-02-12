@@ -22,8 +22,14 @@ i18n
             typewritter2: "Desenvolvedor de Software Full-Stack",
             typewritter3: "Advogado e Jurista"
           },
-          frontEndProjects: {
+          projects: {
             project: {}
+          },
+          header: {
+            home: "Início",
+            projects: "Projetos",
+            about: "Sobre",
+            contact: "Contato"
           },
           about: {
             title: 'Um pouco mais sobre mim!',
@@ -45,6 +51,12 @@ i18n
             typewritter1: "Technology Student",
             typewritter2: "Full-Stack Software Developer",
             typewritter3: "Lawyer and Jurist"
+          },
+          header: {
+            home: "Home",
+            projects: "Projects",
+            about: "About",
+            contact: "Contact"
           },
           frontEndProjects: {
             project: {}

@@ -1,3 +1,7 @@
+.projects-page {
+  padding-top: 50px;
+}
+
 .window-div {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +43,7 @@
 
 .link-img-div {
   text-align: center;
-  height: 170px;
+  height: 50px;
 }
 
 .project-picture {
@@ -53,7 +57,7 @@
 }
 
 .card-div h4 {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .card-div p {

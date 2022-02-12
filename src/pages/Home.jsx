@@ -6,33 +6,17 @@ import Contact from './Contact';
 import About from './About';
 import Header from './Header';
 import './Home.css';
-import ProjectsFront from './ProjectsFront';
+import ProjectsFront from './projects';
 import { Trans, useTranslation } from 'react-i18next';
 
-const lngs = {
-  en: { nativeFlag: String.fromCodePoint(127482, 127480) },
-  ptbr: { nativeFlag: String.fromCodePoint(127463, 127479) }
-};
-
 export default function Home() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
 
     return (
       <div id="home-page">
         <div className="header-buttons">
-          <div>
+          <div className="header-home-div">
             <Header />
-          </div>
-          <div className="buttons-div">
-          {Object.keys(lngs).map((lng) => (
-              <button key={lng} 
-                type="submit"
-                className={ i18n.resolvedLanguage === lng ? 'lang-button-active' : 'lang-button-inactive' }
-                onClick={() => i18n.changeLanguage(lng)}
-              >
-                {lngs[lng].nativeFlag}
-              </button>
-            ))}
           </div>
         </div>
         <div className="home-body-content">

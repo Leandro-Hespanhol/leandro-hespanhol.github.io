@@ -4,7 +4,7 @@ import './ProjectsFront.css';
 
 export default function Projects() {
   return (
-    <div id="front-projects-page">
+    <div id="front-projects-page" className="projects-page">
       <h1 className="projects-title">Projects</h1>
       <div className="window-div">
         {reactProjects.map(

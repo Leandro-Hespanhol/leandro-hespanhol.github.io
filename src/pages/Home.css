@@ -53,6 +53,10 @@
   border: none;
 }
 
+.header-home-div {
+  width: 100%;
+}
+
 :root {
   --white-col: #fff;
   --black-col: #000;
