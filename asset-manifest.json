@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.71b42c6f.css",
-    "main.js": "/static/js/main.d2fd942b.js",
+    "main.css": "/static/css/main.7332917d.css",
+    "main.js": "/static/js/main.4c05d3f0.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/friends-and-bikes.png": "/static/media/friends-and-bikes.08d9784e53006f812cb1.png",
     "static/media/space-uni.jpeg": "/static/media/space-uni.a1e2b93bab9d3ce77c15.jpeg",
@@ -15,12 +15,12 @@
     "static/media/celebracao.png": "/static/media/celebracao.95801865c907830dc0fc.png",
     "static/media/sqlimage.jpeg": "/static/media/sqlimage.a10a9b2ae9fa2b0afe96.jpeg",
     "index.html": "/index.html",
-    "main.71b42c6f.css.map": "/static/css/main.71b42c6f.css.map",
-    "main.d2fd942b.js.map": "/static/js/main.d2fd942b.js.map",
+    "main.7332917d.css.map": "/static/css/main.7332917d.css.map",
+    "main.4c05d3f0.js.map": "/static/js/main.4c05d3f0.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71b42c6f.css",
-    "static/js/main.d2fd942b.js"
+    "static/css/main.7332917d.css",
+    "static/js/main.4c05d3f0.js"
   ]
 }
