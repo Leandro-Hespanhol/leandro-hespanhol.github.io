@@ -1,4 +1,4 @@
-/* @keyframes show-header {
+@keyframes show-header {
   from {
     top: -150px;
   }
@@ -28,7 +28,7 @@
     visibility: hidden;
     transform: translateY(-80px);
   }
-} */
+}
 
 .links-nav {
   align-items: center;
@@ -51,7 +51,7 @@ h1 {
 }
 
 .header-header {
-  animation: 1s ease 0s 1 normal forwards running fadeIn;
+  animation: fadeIn 1s ease 0s 1 normal forwards running;
   position: fixed;
   width: 100vw;
   z-index: 2;
