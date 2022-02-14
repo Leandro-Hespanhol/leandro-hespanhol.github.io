@@ -15,6 +15,12 @@ i18n
     resources: {
       ptbr: {
         translation: {
+          header: {
+            home: "Início",
+            projects: "Projetos",
+            about: "Sobre",
+            contact: "Contato"
+          },
           home: {
             title: `Bem vind@! <br></br> Sou o Leandro Hespanhol`,
             description: `Fique à vontade e espero que encontre o que procura!`,
@@ -29,12 +35,6 @@ i18n
               description: 'Neste projeto requisitei uma API estática que foi salva em um estado loca. No browser o usuário pode filtrar os resultados de diversas formas interessantes. Quer dar uma conferida?',
             }
           },
-          header: {
-            home: "Início",
-            projects: "Projetos",
-            about: "Sobre",
-            contact: "Contato"
-          },
           about: {
             title: 'Um pouco mais sobre mim!',
             description: '<p>Em primeiro lugar, apresento-me fazendo duas coisas que amo: estar com amigos e pedalar! Também amo codar mas não vamos pegar tanta intimidade tão rápido certo? 😉</p><p>Sempre tive facilidade com estudos. Acredito que seja assim porque aprender é sempre uma experiência bastante recompensadora. Gosto de dizer que a <strong>curiosidade é guia!</strong> </p> <p>Sou gradudado em Direito, mas desde o início da minha carreira me destaquei pelos meus conhecimentos tecnológicos. Depois de um ano e meio trabalhando em um escritório de advocacia fui convidado para integrar a diretoria de tecnologia. Trabalhei na função de suporte ao sistema que me deu uma visão incrível sobre desenvolvimento web, banco de dados, inteligência artificial... fazendo com que eu decidisse definitivamente pela mudança de carreira!</p><p>Foi então que encontrei a Trybe. Nunca pensei que fosse possível aprender a programar tão rápido! ',
@@ -48,6 +48,12 @@ i18n
       },
       en: {
         translation: {
+          header: {
+            home: "Home",
+            projects: "Projects",
+            about: "About",
+            contact: "Contact"
+          },
           home: {
             title: `Welcome! <br></br> I'm Leandro Hespanhol`,
             description: `Please take a look and I hope you find what you seek!`,
@@ -56,12 +62,6 @@ i18n
             typewritter3: "Lawyer and Jurist",
             stacks: "Ready to work with: ",
             stacks2: "Oh! And always ready to learn a new language!"
-          },
-          header: {
-            home: "Home",
-            projects: "Projects",
-            about: "About",
-            contact: "Contact"
           },
           projects: {
             starwars: {

@@ -15,9 +15,7 @@ export default function Home() {
   return (
     <div id="home-page">
       <div className="header-buttons">
-        <div className="header-home-div">
           <Header />
-        </div>
       </div>
       <div className="home-body-content">
         <div className="title-typewriter-div">

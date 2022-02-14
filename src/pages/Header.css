@@ -1,3 +1,35 @@
+/* @keyframes show-header {
+  from {
+    top: -150px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    visibility: hidden;
+    transform: translateY(-80px);
+  }
+  to { 
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    visibility: visible;
+    transform: translateY(0);
+  }
+  to { 
+    visibility: hidden;
+    transform: translateY(-80px);
+  }
+} */
+
 .links-nav {
   align-items: center;
   display: flex;
@@ -9,9 +41,19 @@
   text-align: center;
 }
 
+.navbar-brand {
+  cursor: pointer;
+}
+
 h1 {
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
-  /* font-size: 1.5em; */
+}
+
+.header-header {
+  animation: 1s ease 0s 1 normal forwards running fadeIn;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
 }
 
