@@ -6,8 +6,9 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    debug: true,
     fallbackLng: 'en',
+    defaultNS: 'translation',
+    ns: 'translation',
     interpolation: {
       escapeValue: false,
     },
@@ -24,7 +25,9 @@ i18n
             stacks2: "Ah! E sempre pronto pra aprender uma linguagem nova!"
           },
           projects: {
-            project: {}
+            starwars: {
+              description: 'Neste projeto requisitei uma API estática que foi salva em um estado loca. No browser o usuário pode filtrar os resultados de diversas formas interessantes. Quer dar uma conferida?',
+            }
           },
           header: {
             home: "Início",
@@ -39,7 +42,7 @@ i18n
           },
           contact: {
             title: `Vamos trabalhar juntos!!`,
-            subtitle: 'Veja os lugares em que pode me encontrar'
+            // subtitle: 'Veja os lugares em que pode me encontrar'
           }
         }
       },
@@ -60,8 +63,10 @@ i18n
             about: "About",
             contact: "Contact"
           },
-          frontEndProjects: {
-            project: {}
+          projects: {
+            starwars: {
+              description: 'On this project a static API is fetched and saved on local state. On the browser the user can filter the results on a several interesting ways. Please take a look!',
+            },
           },
           about: {
             title: 'What about me?',
@@ -70,7 +75,7 @@ i18n
           },
           contact: {
             title: `Let's work togheter!!`,
-            subtitle: 'Here are the places you can find me'
+            // subtitle: 'Here are the places you can find me'
           }
         }
       }

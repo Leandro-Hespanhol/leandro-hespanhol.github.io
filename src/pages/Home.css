@@ -1,3 +1,5 @@
+/* home */
+
 .home-body-content {
   display: flex;
   height: 120vh;
@@ -43,6 +45,10 @@
   width: 100%;
 }
 
+.header-home-div {
+  width: 100%;
+}
+
 .lang-button-active {
   background-color: black;
   border: 2px solid #006a7a;
@@ -51,10 +57,6 @@
 .lang-button-inactive {
   background-color: black;
   border: none;
-}
-
-.header-home-div {
-  width: 100%;
 }
 
 :root {

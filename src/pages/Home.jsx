@@ -6,7 +6,7 @@ import Contact from './Contact';
 import About from './About';
 import Header from './Header';
 import './Home.css';
-import ProjectsFront from './projects';
+import ProjectsFront from './Projects';
 import { Trans, useTranslation } from 'react-i18next';
 
 export default function Home() {
