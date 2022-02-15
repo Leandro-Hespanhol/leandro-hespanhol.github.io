@@ -6,7 +6,7 @@
   margin: auto;
   padding-top: 150px;
   padding: auto;
-  width: 80%;
+  width: 80vw;
 }
 
 .title-typewriter-div {
@@ -18,23 +18,16 @@
   width: 90%;
 }
 
-.title-user {
-  /* color: aliceblue; */
-  /* font-family: 'Prompt', sans-serif; */
-}
-
 #foto {
   border-radius: 80%;
   width: 200px;
 }
 
 .type-writter{
-  /* color: aliceblue; */
   width: 90%;
 }
 
 .intro-description {
-  /* color: aliceblue; */
   font-size: 25px;
   margin-top: 50px;
 }
@@ -59,4 +52,13 @@
 :root {
   --white-col: #fff;
   --black-col: #000;
+}
+
+@media only screen and (max-width: 1190px) {
+  /* .title-typewriter-div {
+    width: 80%;
+  } */
+  .img-div {
+    visibility: hidden;
+  }
 }

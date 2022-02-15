@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div id="home-page">
-          <Header />
+        <Header />
       <div className="home-body-content">
         <div className="title-typewriter-div">
           <h1 className="title-user">
