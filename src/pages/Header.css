@@ -53,11 +53,10 @@
   margin-right: 15px;
 }
 
-@media only screen and (max-width: 1190px) {
+/* @media only screen and (max-width: 1190px) {
  .header-header {
    display: flex;
    width: 68%;
    justify-content: center;
-   /* border: 5px solid red; */
  }
-}
+} */

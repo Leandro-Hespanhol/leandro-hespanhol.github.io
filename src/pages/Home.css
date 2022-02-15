@@ -6,7 +6,7 @@
   margin: auto;
   padding-top: 150px;
   padding: auto;
-  width: 80vw;
+  width: 80%;
 }
 
 .title-typewriter-div {
@@ -54,11 +54,8 @@
   --black-col: #000;
 }
 
-@media only screen and (max-width: 1190px) {
-  /* .title-typewriter-div {
-    width: 80%;
-  } */
+/* @media only screen and (max-width: 1190px) {
   .img-div {
     visibility: hidden;
   }
-}
+} */
