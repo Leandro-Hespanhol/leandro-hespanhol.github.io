@@ -14,9 +14,7 @@ export default function Home() {
 
   return (
     <div id="home-page">
-      <div className="header-buttons">
           <Header />
-      </div>
       <div className="home-body-content">
         <div className="title-typewriter-div">
           <h1 className="title-user">
