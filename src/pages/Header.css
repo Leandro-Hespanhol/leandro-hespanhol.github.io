@@ -44,11 +44,11 @@
 .navbar-brand {
   cursor: pointer;
 }
-
+/* 
 h1 {
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
-}
+} */
 
 .header-header {
   animation: fadeIn 1s ease 0s 1 normal forwards running;

@@ -18,7 +18,7 @@
 
 .title-user {
   color: aliceblue;
-  font-family: 'Prompt', sans-serif;
+  /* font-family: 'Prompt', sans-serif; */
 }
 
 #foto {
@@ -28,7 +28,6 @@
 
 .type-writter{
   color: aliceblue;
-  font-family: 'Prompt', sans-serif;
   width: 90%;
 }
 
