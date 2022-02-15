@@ -1,5 +1,9 @@
 .projects-page {
+  margin:auto;
   padding-top: 50px;
+  padding: auto;
+  width: 80%;
+
 }
 
 .window-div {
@@ -24,9 +28,9 @@
   color: rgb(255, 255, 255);
   flex-direction: column;
   justify-content: space-between;
-  height: 650px;
-  margin-bottom: 0;
-  max-width: 30%;
+  height: 570px;
+  margin-bottom: 10px;
+  max-width: 48%;
   padding: 15px;
 }
 
@@ -43,7 +47,7 @@
 
 .link-img-div {
   text-align: center;
-  height: 50px;
+  height: 280px;
   padding-bottom: 80px;
 }
 
@@ -62,7 +66,8 @@
 }
 
 .card-div p {
-  line-height: 25px;
+  font-size: 0.9rem;
+  line-height: 21px;
   text-align: justify;
 }
 

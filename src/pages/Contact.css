@@ -5,7 +5,7 @@
 .main-div {
   display: flex;
   height: 67vh;
-  margin: 0;
+  margin: auto;
   transition: 1s ease;
   width: 99vw;
 }
