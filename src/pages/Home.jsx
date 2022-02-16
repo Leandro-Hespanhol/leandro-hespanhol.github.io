@@ -35,64 +35,55 @@ export default function Home() {
             <img
               align="center"
               alt="LeoH-Git"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
             />
             <img
               align="center"
               alt="LeoH-HTML"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
             />
             <img
               align="center"
               alt="LeoH-CSS"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
             />
             <img
               align="center"
               alt="LeoH-JS"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
             />
             <img
               align="center"
               alt="LeoH-React"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
             />
             <img
               align="center"
               alt="LeoH-Redux"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
             />
             <img
               align="center"
               alt="LeoH-Jest"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
             />
             <img
               align="center"
               alt="LeoH-Docker"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg"
             />
             <img
               align="center"
               alt="LeoH-mySql"
-              height="40"
-              width="50"
+              className="stack-icon"
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
             />
             <p className="intro-description">

@@ -1,10 +1,9 @@
-.image-description {
+.image-description-container {
   display: flex;
   margin: auto;
   height: 83vh;
   padding-top: 50px;
   width: 80%;
-  /* padding-bottom: 50px; */
 }
 
 .image-div {
@@ -36,4 +35,19 @@
   border: 2px solid salmon;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+
+@media only screen and (max-width: 890px) {
+  .image-description-container {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100vw;
+    height: 400vw;
+  }
+
+  .image-div img {
+    width: 100vw;
+  }
 }

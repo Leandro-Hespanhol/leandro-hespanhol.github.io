@@ -8,7 +8,7 @@ export default function Experiences() {
 
   return (
     <div id="about-page">
-      <div className="image-description">
+      <div className="image-description-container">
         <div className="image-div">
           <img src={ friends } alt="friends-and-bikes" />
         </div>

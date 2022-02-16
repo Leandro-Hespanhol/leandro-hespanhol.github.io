@@ -51,9 +51,7 @@ export default function Header() {
     <header
       className="header-header"
       style={{
-        animation: isScreenMedium
-          ? 'none'
-          : scrollDir
+        animation: scrollDir
           ? 'fadeIn 1s forwards'
           : 'fadeOut 1s forwards',
       }}

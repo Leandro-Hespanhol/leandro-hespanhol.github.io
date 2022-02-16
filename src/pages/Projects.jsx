@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <div id="projects-page" className="projects-page">
       <h1 className="projects-title">Projects</h1>
-      <div className="window-div">
+      <div className="projects-container">
         {reactProjects.map(
           ({ name, abilities, image, description, link, projectLink }) => (
             <div key={name} className="card-div">
