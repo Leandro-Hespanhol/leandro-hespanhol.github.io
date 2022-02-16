@@ -7,7 +7,7 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div className="phone-email-contact">
+    <div className="phone-email-contact" data-aos="fade-up">
       <div>
         <img src={ whatsappImage } alt="Whatsapp logo" />
         <img src={ telegramImage } alt="Telegram logo" />

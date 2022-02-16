@@ -9,7 +9,7 @@ export default function Projects() {
       <div className="projects-container">
         {reactProjects.map(
           ({ name, abilities, image, description, link, projectLink }) => (
-            <div key={name} className="card-div">
+            <div key={name} className="card-div" data-aos="fade-up">
               <h2>{name}</h2>
               <div className="link-img-div">
                 <a href={link} target="_blank" rel="noreferrer">

@@ -9,12 +9,12 @@ export default function Experiences() {
   return (
     <div id="about-page">
       <div className="image-description-container">
-        <div className="image-div">
+        <div className="image-div" data-aos="fade-up">
           <img src={ friends } alt="friends-and-bikes" />
         </div>
-        <div className="about-me-desc">
+        <div className="about-me-desc" data-aos="fade-up">
           <h1>{t('about.title')}</h1>
-          <Trans i18nkey='home.description'>
+          <Trans i18nkey='about.description'>
             {t('about.description')}
           </Trans>
           <br></br>
