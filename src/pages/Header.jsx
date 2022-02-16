@@ -1,8 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './Header.css';
 import { Link } from 'react-scroll';
-// import { animateScroll as scroll } from 'react-scroll';
-import { useMediaQuery } from 'react-responsive';
 
 import { useTranslation } from 'react-i18next';
 
@@ -13,11 +11,7 @@ const lngs = {
 
 export default function Header() {
   const { t, i18n } = useTranslation();
-
-  const [scrollDir, setScrollDir] = useState(true);
-
-  const isScreenMedium = useMediaQuery({ query: '(max-width: 1015px)' });
-
+  
   useEffect(() => {
     const threshold = 0;
     let lastScrollY = window.pageYOffset;
