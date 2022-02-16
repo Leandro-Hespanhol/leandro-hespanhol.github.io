@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Header.css';
 import { Link } from 'react-scroll';
 
@@ -11,7 +11,9 @@ const lngs = {
 
 export default function Header() {
   const { t, i18n } = useTranslation();
-  
+
+  const [scrollDir, setScrollDir] = useState(true);
+
   useEffect(() => {
     const threshold = 0;
     let lastScrollY = window.pageYOffset;
