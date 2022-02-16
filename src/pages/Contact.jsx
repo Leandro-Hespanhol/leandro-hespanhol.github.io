@@ -15,7 +15,7 @@ export default function Contact() {
     <div id="contact-page" className="contact-page">
       <h1 className="contact-title">{t('contact.title')} <img src={hooray} alt="hooray" width={100} /> </h1>
       {/* <h3 className="contact-title">{t('contact.subtitle')} </h3> */}
-      <div className="main-div">
+      <div className="github-linkedin-container">
         <div className="contact-container github">
           <a href={ githubLink }
             target="_blank"

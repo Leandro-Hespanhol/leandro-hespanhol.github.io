@@ -2,9 +2,9 @@
   padding-top: 50px;
 } */
 
-.main-div {
+.github-linkedin-container {
   display: flex;
-  height: 67vh;
+  height: 40vh;
   margin: auto;
   transition: 1s ease;
   width: 80%;
@@ -77,5 +77,19 @@
 
 
 @media only screen and (max-width: 890px) {
+ .contact-page {
+   width: 100vw;
+ }
+ .github-linkedin-container {
+  height: 40vw;
+ }
 
+ .contact-container {
+  height: 38vw;
+ }
+
+ .contact-container a {
+   width: 30vw;
+   height: 30vw;
+ }
 }

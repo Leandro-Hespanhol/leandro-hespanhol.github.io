@@ -7,15 +7,16 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div className="phone-contact">
+    <div className="phone-email-contact">
       <div>
         <img src={ whatsappImage } alt="Whatsapp logo" />
         <img src={ telegramImage } alt="Telegram logo" />
         <img src={ signalImage } alt="Signal logo" />
+        <br></br>
         <span className="phone-number">+55 31 99452 2000</span>
       </div>
       <div>
-        <img src={ gmailImage } alt="Gemail logo" />
+        <img src={ gmailImage } alt="Gmail logo" />
         <span className="phone-number">leandrohespanhol@gmail.com</span>
       </div>
     </div>
