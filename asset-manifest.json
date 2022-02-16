@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f537ff4.css",
-    "main.js": "/static/js/main.107c7d65.js",
+    "main.css": "/static/css/main.453242ee.css",
+    "main.js": "/static/js/main.c59023dd.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/friends-and-bikes.png": "/static/media/friends-and-bikes.08d9784e53006f812cb1.png",
     "static/media/space-uni.jpeg": "/static/media/space-uni.a1e2b93bab9d3ce77c15.jpeg",
@@ -15,12 +15,12 @@
     "static/media/celebracao.png": "/static/media/celebracao.95801865c907830dc0fc.png",
     "static/media/sqlimage.jpeg": "/static/media/sqlimage.a10a9b2ae9fa2b0afe96.jpeg",
     "index.html": "/index.html",
-    "main.3f537ff4.css.map": "/static/css/main.3f537ff4.css.map",
-    "main.107c7d65.js.map": "/static/js/main.107c7d65.js.map",
+    "main.453242ee.css.map": "/static/css/main.453242ee.css.map",
+    "main.c59023dd.js.map": "/static/js/main.c59023dd.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f537ff4.css",
-    "static/js/main.107c7d65.js"
+    "static/css/main.453242ee.css",
+    "static/js/main.c59023dd.js"
   ]
 }
