@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcedc64c.css",
-    "main.js": "/static/js/main.c59023dd.js",
+    "main.css": "/static/css/main.59092b78.css",
+    "main.js": "/static/js/main.c3366b5f.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/friends-and-bikes.png": "/static/media/friends-and-bikes.08d9784e53006f812cb1.png",
+    "static/media/Brazil-Flag-1.ico": "/static/media/Brazil-Flag-1.5e9b0bf45bf412cf61b2.ico",
     "static/media/space-uni.jpeg": "/static/media/space-uni.a1e2b93bab9d3ce77c15.jpeg",
     "static/media/starwars-transp-cropped.png": "/static/media/starwars-transp-cropped.10b5d14c5b792b3fcabf.png",
+    "static/media/US-United-States-Flag.ico": "/static/media/US-United-States-Flag.004021e966fa3e048ab1.ico",
     "static/media/bolsaimagem.png": "/static/media/bolsaimagem.7bce3c3e015be0635308.png",
     "static/media/equalizer.png": "/static/media/equalizer.7a913f803d515a50c956.png",
     "static/media/signal-logo.png": "/static/media/signal-logo.93fd409cc46e7bfea27d.png",
@@ -15,12 +17,12 @@
     "static/media/celebracao.png": "/static/media/celebracao.95801865c907830dc0fc.png",
     "static/media/sqlimage.jpeg": "/static/media/sqlimage.a10a9b2ae9fa2b0afe96.jpeg",
     "index.html": "/index.html",
-    "main.dcedc64c.css.map": "/static/css/main.dcedc64c.css.map",
-    "main.c59023dd.js.map": "/static/js/main.c59023dd.js.map",
+    "main.59092b78.css.map": "/static/css/main.59092b78.css.map",
+    "main.c3366b5f.js.map": "/static/js/main.c3366b5f.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcedc64c.css",
-    "static/js/main.c59023dd.js"
+    "static/css/main.59092b78.css",
+    "static/js/main.c3366b5f.js"
   ]
 }
