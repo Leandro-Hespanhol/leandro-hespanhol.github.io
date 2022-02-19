@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import './Header.css';
+import Brazil from '../images/flags/Brazil-Flag-1.ico'
+import USA from '../images/flags/US-United-States-Flag.ico'
 import { Link } from 'react-scroll';
 
 import { useTranslation } from 'react-i18next';
 
 const lngs = {
-  en: { nativeFlag: String.fromCodePoint(127482, 127480) },
-  ptbr: { nativeFlag: String.fromCodePoint(127463, 127479) },
+  en: { nativeFlag: <img src={USA} alt="USA Flag" className="header-flags" /> },
+  // ptbr: { nativeFlag: String.fromCodePoint(127463, 127479) },
+  ptbr: { nativeFlag: <img src={Brazil} alt="Brazil Flag" className="header-flags" /> },
 };
 
 export default function Header() {

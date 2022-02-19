@@ -39,6 +39,11 @@
   z-index: 2;
 }
 
+.header-flags {
+  width: 30px;
+  height: 30px;
+}
+
 .links-nav div {
   flex-grow: 1;
   text-align: center;
