@@ -71,6 +71,7 @@
   text-decoration: none;
   opacity: 0.8; 
 }
+
 .frontBackFull {
   background-color: #0f9999;
   border: 1px double #43e7e7;
@@ -106,6 +107,10 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 99vw;
+  }
+  
+  .frontBackFull {
+    margin-top: 15vw;
   }
 
   .card-div {

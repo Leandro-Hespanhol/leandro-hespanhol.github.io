@@ -73,8 +73,13 @@
 @media only screen and (max-width: 890px) {
   .home-body-content {
     width: 100vw;
-    height: 250vw;
+    height: 370vw;
     padding-left: 15px;
+  }
+
+  .stacks-container {
+    width: 100vw;
+    flex-wrap: wrap;
   }
 
   .title-typewriter-div {
