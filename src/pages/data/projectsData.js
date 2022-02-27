@@ -6,6 +6,7 @@ import sqlimage from '../../images/sqlimage.jpeg'
 export const reactProjects = [
   {
     name: 'Star Wars Planet Search' ,
+    frontBackFull: 'FrontEnd',
     image: starWars,
     abilities: 'React, Context API, Hooks.',
     habilidades: 'React, Context API, Hooks.',
@@ -16,6 +17,7 @@ export const reactProjects = [
   },
   {
     name: 'Exchange Rates',
+    frontBackFull: 'FrontEnd',
     image: trybewallet,
     abilities: 'React, Redux.',
     habilidades: 'React, Redux.',
@@ -26,6 +28,7 @@ export const reactProjects = [
   },
   {
     name: 'Songs Preview App',
+    frontBackFull: 'FrontEnd',
     image: trybetunes,
     abilities: 'React, props, routes',
     habilidades: 'React, props, routes',
@@ -35,14 +38,15 @@ export const reactProjects = [
     projectLink: 'https://leandro-hespanhol.github.io/TrybeTunes/',
   },
   {
-    name: 'mySQL Project',
+    name: 'Store Manager',
+    frontBackFull: 'BackEnd',
     image: sqlimage,
-    abilities: 'DataBase Normalization, mySQL: fundamentals and queries',
+    abilities: 'NodeJS, MySql, Javascript',
     habilidades: 'Normalização de bases, mySQL: fundamentos e queries',
-    description: 'This project starts with a table normalization where I had to work logically to create functional tables. The challenges that follows are about creating diferent queries to extract interesting data.',
-    descricao: 'Esse projeto começa com a normalização de uma tabela a qual precisou convertida logicamente em um banco de dados. Em seguida são propostos e resolvidos alguns desafios de consulta no mySQL.',
-    link: 'https://github.com/Leandro-Hespanhol/mySql-Project',
-    projectLink: 'https://github.com/Leandro-Hespanhol/mySql-Project',
+    description: 'Following RESTfull principles, this project uses CRUD endpoints to manage a Store database.',
+    descricao: 'Seguindo princípios RESTfull esse projeto utiliza de endpoints CRUD para manipular o banco de dados',
+    link: 'https://github.com/Leandro-Hespanhol/BackEnd-Store-Manager',
+    projectLink: 'https://github.com/Leandro-Hespanhol/BackEnd-Store-Manager',
   },
 ]
 

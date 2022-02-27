@@ -1,5 +1,5 @@
 import React from 'react';
-import { reactProjects } from './Projects/Data';
+import { reactProjects } from './data/projectsData';
 import './Projects.css';
 
 export default function Projects() {
@@ -8,9 +8,9 @@ export default function Projects() {
       <h1 className="projects-title">Projects</h1>
       <div className="projects-container">
         {reactProjects.map(
-          ({ name, abilities, image, description, link, projectLink }) => (
+          ({ frontBackFull, name, abilities, image, description, link, projectLink }) => (
             <div key={name} className="card-div" data-aos="fade-up">
-              <h2>{name}</h2>
+              <span className="frontBackFull">{frontBackFull}</span><h2>{name}</h2>
               <div className="link-img-div">
                 <a href={link} target="_blank" rel="noreferrer">
                   <img

@@ -31,6 +31,18 @@
   margin-top: 50px;
 }
 
+.stacks-container {
+  justify-content: center;
+  display: flex;
+  width: 50vw;
+  flex-wrap: wrap;
+}
+
+.stack-description-container {
+  padding-right: 50px;
+  text-align: center;
+}
+
 .stack-icon {
   width: 80px;
   height: 60px;

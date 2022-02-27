@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .phone-email-contact img {

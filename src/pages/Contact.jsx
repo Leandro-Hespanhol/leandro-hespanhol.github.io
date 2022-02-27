@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import { useTranslation } from 'react-i18next';
 import hooray from '../images/celebracao.png';
 import './Contact.css';
-import { githubLink, linkedinLink } from './Projects/Data';
+import { githubLink, linkedinLink } from './data/projectsData';
 
 export default function Contact() {
   const { t } = useTranslation();

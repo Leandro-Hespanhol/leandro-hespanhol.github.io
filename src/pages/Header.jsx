@@ -8,7 +8,6 @@ import { useTranslation } from 'react-i18next';
 
 const lngs = {
   en: { nativeFlag: <img src={USA} alt="USA Flag" className="header-flags" /> },
-  // ptbr: { nativeFlag: String.fromCodePoint(127463, 127479) },
   ptbr: { nativeFlag: <img src={Brazil} alt="Brazil Flag" className="header-flags" /> },
 };
 
