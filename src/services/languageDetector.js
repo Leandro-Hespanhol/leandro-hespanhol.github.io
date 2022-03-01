@@ -74,7 +74,7 @@ i18n
             description2: '<p>And not just that! To know how to learn is one of the main skills im improving on my study. Because of that, learning a different language would not be a problem!</p>'
           },
           contact: {
-            title: `Let's work togheter!!`,
+            title: `Let's work together!!`,
             // subtitle: 'Here are the places you can find me'
           }
         }
