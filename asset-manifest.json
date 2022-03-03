@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82abf7bb.css",
-    "main.js": "/static/js/main.9cfa9b21.js",
+    "main.js": "/static/js/main.27f8e92d.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/friends-and-bikes.png": "/static/media/friends-and-bikes.08d9784e53006f812cb1.png",
     "static/media/Brazil-Flag-1.ico": "/static/media/Brazil-Flag-1.5e9b0bf45bf412cf61b2.ico",
@@ -18,11 +18,11 @@
     "static/media/sqlimage.jpeg": "/static/media/sqlimage.a10a9b2ae9fa2b0afe96.jpeg",
     "index.html": "/index.html",
     "main.82abf7bb.css.map": "/static/css/main.82abf7bb.css.map",
-    "main.9cfa9b21.js.map": "/static/js/main.9cfa9b21.js.map",
+    "main.27f8e92d.js.map": "/static/js/main.27f8e92d.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82abf7bb.css",
-    "static/js/main.9cfa9b21.js"
+    "static/js/main.27f8e92d.js"
   ]
 }
