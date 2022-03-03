@@ -60,7 +60,7 @@ i18n
             typewritter1: "Technology Student",
             typewritter2: "Full-Stack Software Developer",
             typewritter3: "Lawyer and Jurist",
-            stacks: "Ready to work with: ",
+            stacks: "Ready to work on: ",
             stacks2: "Oh! And always ready to learn a new language!"
           },
           projects: {
