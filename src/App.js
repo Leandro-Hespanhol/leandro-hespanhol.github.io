@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './App.css'
 import ProfileProvider from './context/ContextAPI';
 
@@ -10,7 +10,10 @@ import i18n from './services/languageDetector';
 
 export default function App() {
 
-  Aos.init({ duration: 800 });
+  useEffect(() => {
+    Aos.init({ duration: 800 });
+    Aos.refresh();
+  })
 
     return (
       <ProfileProvider>
