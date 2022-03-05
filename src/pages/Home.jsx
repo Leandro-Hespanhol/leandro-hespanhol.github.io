@@ -6,7 +6,7 @@ import Contact from './Contact';
 import About from './About';
 import Header from './Header';
 import './Home.css';
-import ProjectsFront from './Projects';
+import Projects from './Projects';
 import { Trans, useTranslation } from 'react-i18next';
 import { stackDocumentation } from './data/stacksDocumentation';
 
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div id="home-page">
         <Header />
-      <div className="home-body-content">
+      <section className="home-body-content">
         <div className="title-typewriter-div">
           <h1 className="title-user">
             <Trans i18nkey="home.title">{t('home.title')}</Trans>
@@ -181,8 +181,8 @@ export default function Home() {
             className="port-image"
           />
         </div>
-      </div>
-      <ProjectsFront />
+      </section>
+      <Projects />
       <About />
       <Contact />
     </div>

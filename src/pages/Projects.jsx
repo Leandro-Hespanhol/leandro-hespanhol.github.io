@@ -4,7 +4,7 @@ import './Projects.css';
 
 export default function Projects() {
   return (
-    <div id="projects-page" className="projects-page">
+    <section id="projects-page" className="projects-page">
       <h1 className="projects-title">Projects</h1>
       <div className="projects-container">
         {reactProjects.map(
@@ -36,6 +36,6 @@ export default function Projects() {
           )
         )}
       </div>
-    </div>
+    </section>
   );
 }

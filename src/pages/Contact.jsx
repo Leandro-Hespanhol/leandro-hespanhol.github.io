@@ -11,7 +11,7 @@ export default function Contact() {
   const { t } = useTranslation();
 
   return (
-    <div id="contact-page" className="contact-page">
+    <section id="contact-page" className="contact-page">
       <h1 className="contact-title" data-aos="fade-up">
         {t('contact.title')} <img src={hooray} alt="hooray" width={100} />{' '}
       </h1>
@@ -38,6 +38,6 @@ export default function Contact() {
         </div>
       </div>
       <Footer />
-    </div>
+    </section>
   );
 }

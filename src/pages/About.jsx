@@ -7,7 +7,7 @@ export default function Experiences() {
   const { t } = useTranslation()
 
   return (
-    <div id="about-page">
+    <section id="about-page">
       <div className="image-description-container">
         <div className="image-div" data-aos="fade-up">
           <img src={ friends } alt="friends-and-bikes" />
@@ -23,6 +23,6 @@ export default function Experiences() {
           </Trans>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
