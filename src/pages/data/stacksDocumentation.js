@@ -1,5 +1,5 @@
 
-const stackDocumentation = [
+const stacksDocumentation = [
   {
     git: 'https://git-scm.com/doc',
     node: 'https://nodejs.org/en/docs/',
@@ -17,5 +17,5 @@ const stackDocumentation = [
 ]
 
 module.exports = {
-  stackDocumentation
+  stacksDocumentation
 }

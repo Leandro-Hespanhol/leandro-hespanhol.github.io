@@ -24,14 +24,15 @@
   background-color: #000706;
   border: 10px double #00272d;
   border-radius: 20px;
-  display: flex;
   color: rgb(255, 255, 255);
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 570px;
   margin-bottom: 10px;
   width: 48%;
   padding: 15px;
+  transition: 1s;
 }
 
 .card-div:hover {
