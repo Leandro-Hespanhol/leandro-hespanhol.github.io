@@ -2,6 +2,7 @@ import starWars from '../../images/starwars-transp-cropped.png'
 import trybetunes from '../../images/equalizer.png'
 import trybewallet from '../../images/bolsaimagem.png'
 import sqlimage from '../../images/sqlimage.jpeg'
+import blogApi from '../../images/capa-artigo-api-.jpg'
 
 export const reactProjects = [
   {
@@ -51,7 +52,7 @@ export const reactProjects = [
   {
     name: 'Blogs API',
     frontBackFull: 'BackEnd',
-    image: sqlimage,
+    image: blogApi,
     abilities: 'Sequelize, ORM, NodeJS, Javascript, JsonWebToken',
     habilidades: 'Normalização de bases, mySQL: fundamentos e queries',
     description: 'Following RESTfull principles, this API creates and manages the DataBase using sequelize. I also used JsonWebToken to validade the acess token.',
