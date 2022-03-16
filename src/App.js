@@ -13,7 +13,7 @@ export default function App() {
   useEffect(() => {
     Aos.init({ duration: 800 });
     Aos.refresh();
-  })
+  }, [])
 
     return (
       <ProfileProvider>
