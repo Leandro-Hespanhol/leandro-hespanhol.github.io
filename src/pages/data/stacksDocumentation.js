@@ -9,6 +9,7 @@ const stacksDocumentation = [
     HTML: 'https://developer.mozilla.org/pt-BR/docs/Web/HTML',
     CSS: 'https://developer.mozilla.org/pt-BR/docs/Web/CSS',
     javascript: 'https://developer.mozilla.org/pt-BR/docs/Web/JavaScript',
+    typescript: 'https://www.typescriptlang.org/docs/',
     react: 'https://pt-br.reactjs.org/docs/getting-started.html',
     redux: 'https://redux.js.org/',
     jest: 'https://jestjs.io/pt-BR/docs/getting-started',

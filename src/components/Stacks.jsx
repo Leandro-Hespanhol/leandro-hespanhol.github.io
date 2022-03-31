@@ -10,7 +10,7 @@ export default function stacks(props) {
       {t('home.stacks')}
     </p>
     {/* <Stacks /> */}
-      {stacksDocumentation.map(({git, node, npm, mocha, mysql, HTML, CSS, javascript, react, redux, jest, docker}) => (
+      {stacksDocumentation.map(({git, node, npm, mocha, mysql, HTML, CSS, javascript, typescript, react, redux, jest, docker}) => (
     <div className="stacks-container">
       <div className="stack-description-container">
       <a href={git} target="_blank" rel="noreferrer">
@@ -99,6 +99,17 @@ export default function stacks(props) {
           />
         </a>
         <p>Javacript</p>
+      </div>
+      <div className="stack-description-container">
+      <a href={typescript} target="_blank" rel="noreferrer">
+          <img
+            align="center"
+            alt="LeoH-typescript"
+            className="stack-icon"
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+          />
+        </a>
+        <p>Typescript</p>
       </div>
       <div className="stack-description-container">
       <a href={react} target="_blank" rel="noreferrer">
