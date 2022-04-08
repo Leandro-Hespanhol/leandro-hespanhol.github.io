@@ -57,8 +57,8 @@ export const reactProjects = [
     habilidades: 'Normalização de bases, mySQL: fundamentos e queries',
     description: 'Following RESTfull principles, this API creates and manages the DataBase using sequelize. I also used JsonWebToken to validade the acess token.',
     descricao: 'Seguindo princípios RESTfull e arquitetura MSC, esse projeto cria e utiliza o banco de dados com sequelize. Eu também usei o JsonWebToken para validar o token de acesso',
-    link: 'https://github.com/Leandro-Hespanhol/BackEnd-Store-Manager',
-    projectLink: 'https://github.com/Leandro-Hespanhol/BackEnd-Store-Manager',
+    link: 'https://github.com/Leandro-Hespanhol/Blogs-API-Backend',
+    projectLink: 'https://github.com/Leandro-Hespanhol/Blogs-API-Backend',
   },
 ]
 
