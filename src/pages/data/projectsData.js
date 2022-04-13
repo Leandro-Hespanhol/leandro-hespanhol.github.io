@@ -3,6 +3,7 @@ import trybetunes from '../../images/equalizer.png'
 import trybewallet from '../../images/bolsaimagem.png'
 import sqlimage from '../../images/sqlimage.jpeg'
 import blogApi from '../../images/capa-artigo-api-.jpg'
+import dd from '../../images/dd.png'
 
 export const reactProjects = [
   {
@@ -43,7 +44,7 @@ export const reactProjects = [
     frontBackFull: 'BackEnd',
     image: sqlimage,
     abilities: 'NodeJS, MySql, Javascript',
-    habilidades: 'Normalização de bases, mySQL: fundamentos e queries',
+    habilidades: '',
     description: 'Following RESTfull principles, this project uses CRUD endpoints to manage a Store database.',
     descricao: 'Seguindo princípios RESTfull e arquitetura MSC, esse projeto utiliza de endpoints CRUD para manipular o banco de dados',
     link: 'https://github.com/Leandro-Hespanhol/BackEnd-Store-Manager',
@@ -54,11 +55,22 @@ export const reactProjects = [
     frontBackFull: 'BackEnd',
     image: blogApi,
     abilities: 'Sequelize, ORM, NodeJS, Javascript, JsonWebToken',
-    habilidades: 'Normalização de bases, mySQL: fundamentos e queries',
+    habilidades: '',
     description: 'Following RESTfull principles, this API creates and manages the DataBase using sequelize. I also used JsonWebToken to validade the acess token.',
     descricao: 'Seguindo princípios RESTfull e arquitetura MSC, esse projeto cria e utiliza o banco de dados com sequelize. Eu também usei o JsonWebToken para validar o token de acesso',
     link: 'https://github.com/Leandro-Hespanhol/Blogs-API-Backend',
     projectLink: 'https://github.com/Leandro-Hespanhol/Blogs-API-Backend',
+  },
+  {
+    name: 'Trybers & Dragons',
+    frontBackFull: 'BackEnd',
+    image: dd,
+    abilities: 'TypeScript, Javascript, POO',
+    habilidades: '',
+    description: 'Inspired on the dungeouns and dragons universe, this project uses typescript and OOP to create javascript classes, interfaces and types of Races, Archetypes and monsters.',
+    descricao: '',
+    link: 'https://github.com/Leandro-Hespanhol/trybers-and-dragons',
+    projectLink: 'https://github.com/Leandro-Hespanhol/trybers-and-dragons',
   },
 ]
 
