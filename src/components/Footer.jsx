@@ -9,7 +9,13 @@ export default function Footer() {
   return (
     <div className="phone-email-contact" data-aos="fade-up">
       <div>
-        <img src={ whatsappImage } alt="Whatsapp logo" />
+       <a
+            href={'https://whatsa.me/5531994522000'}
+            target="_blank"
+            rel="noreferrer"
+          >
+          <img src={ whatsappImage } alt="Whatsapp logo" />
+          </a>
         <img src={ telegramImage } alt="Telegram logo" />
         <img src={ signalImage } alt="Signal logo" />
         <br></br>
