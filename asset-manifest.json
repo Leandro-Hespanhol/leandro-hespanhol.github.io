@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.172ce764.css",
-    "main.js": "/static/js/main.316fe389.js",
+    "main.css": "/static/css/main.b8a672d2.css",
+    "main.js": "/static/js/main.d287b661.js",
     "static/js/787.b45e1b78.chunk.js": "/static/js/787.b45e1b78.chunk.js",
     "static/media/friends-and-bikes.png": "/static/media/friends-and-bikes.08d9784e53006f812cb1.png",
     "static/media/dd.png": "/static/media/dd.95f3024aaa813d958610.png",
@@ -12,6 +12,7 @@
     "static/media/bolsaimagem.png": "/static/media/bolsaimagem.7bce3c3e015be0635308.png",
     "static/media/equalizer.png": "/static/media/equalizer.7a913f803d515a50c956.png",
     "static/media/capa-artigo-api-.jpg": "/static/media/capa-artigo-api-.e391a404dcbe01c8dc79.jpg",
+    "static/media/leaderboard.png": "/static/media/leaderboard.0aa2c0a5273098aac13e.png",
     "static/media/signal-logo.png": "/static/media/signal-logo.93fd409cc46e7bfea27d.png",
     "static/media/whatsapp-logo.png": "/static/media/whatsapp-logo.5fc400c4b153fc178ad7.png",
     "static/media/leandro-port.jpeg": "/static/media/leandro-port.fa1cb2f06489d4c41139.jpeg",
@@ -19,12 +20,12 @@
     "static/media/celebracao.png": "/static/media/celebracao.95801865c907830dc0fc.png",
     "static/media/sqlimage.jpeg": "/static/media/sqlimage.a10a9b2ae9fa2b0afe96.jpeg",
     "index.html": "/index.html",
-    "main.172ce764.css.map": "/static/css/main.172ce764.css.map",
-    "main.316fe389.js.map": "/static/js/main.316fe389.js.map",
+    "main.b8a672d2.css.map": "/static/css/main.b8a672d2.css.map",
+    "main.d287b661.js.map": "/static/js/main.d287b661.js.map",
     "787.b45e1b78.chunk.js.map": "/static/js/787.b45e1b78.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.172ce764.css",
-    "static/js/main.316fe389.js"
+    "static/css/main.b8a672d2.css",
+    "static/js/main.d287b661.js"
   ]
 }
