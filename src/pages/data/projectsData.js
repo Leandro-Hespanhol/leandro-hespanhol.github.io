@@ -1,3 +1,4 @@
+import leaderboard from '../../images/leaderboard.png'
 import starWars from '../../images/starwars-transp-cropped.png'
 import trybetunes from '../../images/equalizer.png'
 import trybewallet from '../../images/bolsaimagem.png'
@@ -6,6 +7,17 @@ import blogApi from '../../images/capa-artigo-api-.jpg'
 import dd from '../../images/dd.png'
 
 export const reactProjects = [
+  {
+    name: 'Football LeaderBoard' ,
+    frontBackFull: 'FullStack',
+    image: leaderboard,
+    abilities: 'NodeJS, Sequelize, OOP, MSC, API-Rest, Mocha-chai',
+    habilidades: 'NodeJS, Sequelize, OOP, MSC, API-Rest, Mocha-chai',
+    description: 'Creating endpoints and processing information from a database, this project is a fullstack application that creates three different leaderboards from a football competition',
+    descricao: 'Construindo endpoints e processando dados do banco de dados, esse projeto é uma aplicação fullstack criada para construir um placar de uma competição de futebol',
+    link: 'https://github.com/Leandro-Hespanhol/Football-score-board',
+    projectLink: 'https://github.com/Leandro-Hespanhol/Football-score-board',
+  },
   {
     name: 'Star Wars Planet Search' ,
     frontBackFull: 'FrontEnd',
