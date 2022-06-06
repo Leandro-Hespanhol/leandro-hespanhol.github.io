@@ -57,7 +57,7 @@ export const reactProjects = [
     image: sqlimage,
     abilities: 'NodeJS, MySql, Javascript',
     habilidades: '',
-    description: 'Following RESTfull principles, this project uses CRUD endpoints to manage a Store database.',
+    description: 'Following RESTfull principles, this project uses CRUD endpoints to manage a Store database with 98% test coverage.',
     descricao: 'Seguindo princípios RESTfull e arquitetura MSC, esse projeto utiliza de endpoints CRUD para manipular o banco de dados',
     link: 'https://github.com/Leandro-Hespanhol/BackEnd-Store-Manager',
     projectLink: 'https://github.com/Leandro-Hespanhol/BackEnd-Store-Manager',
