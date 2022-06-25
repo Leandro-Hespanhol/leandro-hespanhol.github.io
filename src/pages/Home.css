@@ -2,7 +2,7 @@
 
 .home-body-content {
   display: flex;
-  height: 130vh;
+  height: auto;
   margin: auto;
   padding-top: 150px;
   width: 80%;
@@ -79,7 +79,6 @@
 @media only screen and (max-width: 890px) {
   .home-body-content {
     width: 100vw;
-    height: 370vw;
     padding-left: 15px;
   }
 

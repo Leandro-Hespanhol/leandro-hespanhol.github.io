@@ -4,7 +4,7 @@
 
 .github-linkedin-container {
   display: flex;
-  height: 40vh;
+  height: auto;
   margin: auto;
   transition: 1s ease;
   width: 80%;

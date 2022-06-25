@@ -1,7 +1,7 @@
 .image-description-container {
   display: flex;
   margin: auto;
-  height: 90vh;
+  height: auto;
   padding-top: 50px;
   width: 80%;
 }
