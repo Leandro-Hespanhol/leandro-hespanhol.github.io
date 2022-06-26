@@ -8,8 +8,8 @@ export default function Projects() {
       <h1 className="projects-title">Projects</h1>
       <div className="projects-container">
         {reactProjects.map(
-          ({ frontBackFull, name, abilities, image, description, link, projectLink }) => (
-            <div key={name} className="card-div" data-aos="fade-up">
+          ({ frontBackFull, name, abilities, image, description, link, projectLink }, idx) => (
+            <div key={name} className="card-div" data-aos={idx % 2 === 0 ? 'fade-right' : 'fade-left' }>
               <span className="frontBackFull">{frontBackFull}</span><h2>{name}</h2>
               <div className="link-img-div">
                 <a href={link} target="_blank" rel="noreferrer">

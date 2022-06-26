@@ -15,8 +15,8 @@ export default function Contact() {
       <h1 className="contact-title" data-aos="fade-up">
         {t('contact.title')} <img src={hooray} alt="hooray" width={100} />{' '}
       </h1>
-      <div className="github-linkedin-container" data-aos="fade-up">
-        <div className="contact-container github">
+      <div className="github-linkedin-container">
+        <div className="contact-container github" data-aos="fade-right">
           <a
             href={githubLink}
             target="_blank"
@@ -26,7 +26,7 @@ export default function Contact() {
             <img src={githubImage} alt="Github logo" />
           </a>
         </div>
-        <div className="contact-container linkedin">
+        <div className="contact-container linkedin" data-aos="fade-left">
           <a
             href={linkedinLink}
             target="_blank"

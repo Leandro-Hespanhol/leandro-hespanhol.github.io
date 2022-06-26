@@ -9,7 +9,6 @@ export default function stacks(props) {
     <p className="intro-description">
       {t('home.stacks')}
     </p>
-    {/* <Stacks /> */}
       {stacksDocumentation.map(({git, node, npm, mocha, mysql, HTML, CSS, javascript, typescript, react, redux, jest, docker}) => (
     <div className="stacks-container">
       <div className="stack-description-container">

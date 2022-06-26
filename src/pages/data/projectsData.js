@@ -8,7 +8,7 @@ import dd from '../../images/dd.png'
 
 export const reactProjects = [
   {
-    name: 'Football LeaderBoard' ,
+    name: 'Football LeaderBoard',
     frontBackFull: 'FullStack',
     image: leaderboard,
     abilities: 'NodeJS, Sequelize, OOP, MSC, API-Rest, Mocha-chai',
@@ -19,7 +19,7 @@ export const reactProjects = [
     projectLink: 'https://github.com/Leandro-Hespanhol/Football-score-board',
   },
   {
-    name: 'Star Wars Planet Search' ,
+    name: 'Star Wars Planet Search',
     frontBackFull: 'FrontEnd',
     image: starWars,
     abilities: 'React, Context API, Hooks.',

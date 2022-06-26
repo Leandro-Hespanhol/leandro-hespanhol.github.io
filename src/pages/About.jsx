@@ -9,7 +9,7 @@ export default function Experiences() {
   return (
     <section id="about-page">
       <div className="image-description-container">
-        <div className="image-div" data-aos="fade-up">
+        <div className="image-div" data-aos="fade-right">
           <img src={ friends } alt="friends-and-bikes" />
         </div>
         <div className="about-me-desc" data-aos="fade-up">
