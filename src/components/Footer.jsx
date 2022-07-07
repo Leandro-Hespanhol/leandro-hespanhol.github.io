@@ -3,7 +3,7 @@ import whatsappImage from '../images/whatsapp-logo.png';
 import telegramImage from '../images/telegram-logo.png';
 import signalImage from '../images/signal-logo.png';
 import gmailImage from '../images/gmail.png';
-import './Footer.css';
+import './Footer.scss';
 
 export default function Footer() {
   return (

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './App.css'
+import './App.scss'
 import ProfileProvider from './context/ContextAPI';
 
 import Home from './pages/Home';

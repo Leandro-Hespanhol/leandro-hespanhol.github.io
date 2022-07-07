@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Header.css';
+import './Header.scss';
 import Brazil from '../images/flags/Brazil-Flag-1.ico'
 import USA from '../images/flags/US-United-States-Flag.ico'
 import { Link } from 'react-scroll';

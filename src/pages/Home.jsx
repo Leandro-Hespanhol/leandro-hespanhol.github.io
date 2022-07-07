@@ -6,7 +6,7 @@ import Contact from './Contact';
 import About from './About';
 import Stacks from '../components/Stacks';
 import Header from './Header';
-import './Home.css';
+import './Home.scss';
 import Projects from './Projects';
 
 import { Trans, useTranslation } from 'react-i18next';

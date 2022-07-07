@@ -1,7 +1,7 @@
 import React from 'react'
 import friends from '../images/friends-and-bikes.png'
 import { Trans, useTranslation } from 'react-i18next';
-import './About.css'
+import './About.scss'
 
 export default function Experiences() {
   const { t } = useTranslation()

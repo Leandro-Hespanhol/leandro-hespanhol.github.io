@@ -1,6 +1,6 @@
 import React from 'react';
 import { reactProjects } from './data/projectsData';
-import './Projects.css';
+import './Projects.scss';
 
 export default function Projects() {
   return (

@@ -4,7 +4,7 @@ import linkedinImage from '../images/linkedin-logo.png';
 import Footer from '../components/Footer';
 import { useTranslation } from 'react-i18next';
 import hooray from '../images/celebracao.png';
-import './Contact.css';
+import './Contact.scss';
 import { githubLink, linkedinLink } from './data/projectsData';
 
 export default function Contact() {
