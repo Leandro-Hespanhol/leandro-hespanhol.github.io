@@ -16,12 +16,12 @@
 }
 
 .contact-container {
-  width: 95%;
-  height: 95%;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  height: 95%;
+  justify-content: center;
   margin: 0;
+  width: 95%;
   a {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 30px;
@@ -29,7 +29,7 @@
     display: grid;
     height: 250px;
     place-items: center;
-    transition: 1s;
+    transition: 1.5s;
     width: 250px;
     &:hover {
       background-color: white;
@@ -40,7 +40,6 @@
     }
   }
 }
-
 
 .github {
   background-image: url(https://media.istockphoto.com/photos/woman-face-in-matrix-picture-id479293084?k=20&m=479293084&s=170667a&w=0&h=8H7AWasw6TXIWRpzwOi-pq0v1UrFtWWD0D1Asb1iJl0=);
@@ -70,7 +69,6 @@
   border: 3px solid #0e76a8;
 }
 
-
 @media only screen and (max-width: 890px) {
  .contact-page {
    width: 100vw;
@@ -81,10 +79,9 @@
 
  .contact-container {
   height: 38vw;
- }
-
- .contact-container a {
-   width: 30vw;
-   height: 30vw;
+  a {
+    width: 30vw;
+    height: 30vw;
+  }
  }
 }
