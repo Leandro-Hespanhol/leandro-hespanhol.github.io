@@ -22,57 +22,52 @@
   justify-content: center;
   align-items: center;
   margin: 0;
+  a {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
+    display: grid;
+    height: 250px;
+    place-items: center;
+    transition: 1s;
+    width: 250px;
+    &:hover {
+      background-color: white;
+    }
+    img {
+      border-radius: 30px;
+      width: 90%;
+    }
+  }
 }
 
-.contact-container a {
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 30px;
-  box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
-  display: grid;
-  height: 250px;
-  place-items: center;
-  transition: 1s;
-  width: 250px;
-}
-
-.contact-container a:hover {
-  background-color: white;
-}
-
-.contact-container a img {
-  border-radius: 30px;
-  width: 90%;
-}
 
 .github {
   background-image: url(https://media.istockphoto.com/photos/woman-face-in-matrix-picture-id479293084?k=20&m=479293084&s=170667a&w=0&h=8H7AWasw6TXIWRpzwOi-pq0v1UrFtWWD0D1Asb1iJl0=);
   background-position: center;
   filter: grayscale(100%);
   transition: 1.25s;
+  &:hover {
+    filter: grayscale(0%);  
+  }
 }
 
 .github-image {
   border: 3px solid black;
 }
 
-.github:hover {
-  filter: grayscale(0%);
-}
-
-
 .linkedin {
   background-image: url(https://content.linkedin.com/content/dam/blog/en-us/corporate/blog/2016/09/832A1642.jpg);
   background-position: center;
   filter: grayscale(100%);
   transition: 1.25s;
+  &:hover {
+    filter: grayscale(0%);  
+  }
 }
 
 .linkedin-image {
   border: 3px solid #0e76a8;
-}
-
-.linkedin:hover {
-  filter: grayscale(0%);
 }
 
 
