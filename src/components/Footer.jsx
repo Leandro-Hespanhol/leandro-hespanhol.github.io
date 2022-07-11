@@ -7,7 +7,7 @@ import './Footer.scss';
 
 export default function Footer() {
   return (
-    <div className="phone-email-contact" data-aos="fade-up">
+    <footer className="phone-email-contact" data-aos="fade-up">
       <div>
         <a
           href={'https://whatsa.me/5531994522000'}
@@ -25,6 +25,6 @@ export default function Footer() {
         <img src={gmailImage} alt="Gmail logo" />
         <span className="phone-number">leandrohespanhol@gmail.com</span>
       </div>
-    </div>
+    </footer>
   );
 }
