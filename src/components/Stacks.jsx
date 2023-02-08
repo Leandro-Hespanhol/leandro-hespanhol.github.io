@@ -17,7 +17,7 @@ export default function stacks(props) {
             align="center"
             alt={alt}
             className="stack-icon"
-            src={svg} 
+            src={svg}
           />
       </a>
         <p>{stack}</p>
