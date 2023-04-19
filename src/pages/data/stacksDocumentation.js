@@ -77,6 +77,12 @@ const stacksDocumentation = [
     alt: 'docker-icon',
     stack: "Docker"
   },
+  {
+    documentation: 'https://go.dev/doc/',
+    svg: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg',
+    alt: 'golang-icon',
+    stack: "Golang"
+  }
 ];
 
 module.exports = {
