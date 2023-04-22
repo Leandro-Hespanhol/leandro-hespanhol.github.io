@@ -12,12 +12,6 @@ const stacksDocumentation = [
     stack: "NodeJS"
   },
   {
-    documentation: 'https://docs.npmjs.com/',
-    svg: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg',
-    alt: 'npm-icon',
-    stack: "NPM"
-  },
-  {
     documentation: 'https://mochajs.org/',
     svg: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mocha/mocha-plain.svg',
     alt: 'mocha-icon',
