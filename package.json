@@ -10,7 +10,6 @@
     "aos": "^2.3.4",
     "i18next": "^21.6.5",
     "i18next-browser-languagedetector": "^6.1.2",
-    "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-draggable": "^4.4.4",
@@ -19,6 +18,7 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.4",
+    "sass": "^1.62.0",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.2"
   },
